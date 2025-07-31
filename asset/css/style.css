@@ -1,0 +1,1009 @@
+* {
+  margin: 0 auto;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p,.fare_service_details thead,.fare_service_details thead th{
+  margin: 0;
+  font-size: 18px;
+}
+
+figure {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+  color: #ff7f6a;
+}
+
+a:not([href]):not([tabindex]),
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+}
+
+h1 {
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.bg_clr,.h_concept_projects .btn:hover,.h_vision .btn:hover,.h_eng_innovation ul li:nth-child(even),
+.notre_mission_box figure:hover,.fare_service_details thead{
+  background-color: #FE8F2B !important;
+}
+.bg_grey,.h_eng_innovation ul li:nth-child(odd){
+  background-color: #031C35;
+}
+
+
+.cl1{
+  color: #121212;
+}
+.cl2{
+  color: #999 !important;
+}
+.cl3,#green{
+  color: #21C55E !important;
+}
+.cl4{
+ color: #1c1c1c !important;
+}
+.cl5{
+  color: #FF8400;
+}
+.cl6{
+  color: #424242 !important;
+}
+.cl7{
+  color: #191919 !important;
+}
+.cl8{
+  color: #8D9199 !important;
+}
+
+h2{
+font-size: 56px;
+font-weight: 500;
+color: rgba(0, 0, 0, 0.90);
+}
+
+h4{
+  color: #221A23;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+h5{
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.blog_subtitle,.key_offers_services h6,.behind_profile h6,.trip_details h6{
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.btn{
+  background-color: #FE8F2B;
+  color: white;
+  border-radius: 10px;
+  padding: 14px 42px;
+  transition: 0.5s all;
+  border: 1px solid #FE8F2B;
+  z-index: 1;
+  position: relative;
+}
+
+.btn:hover,.book_by_whatsapp {
+  background-color: white;
+  color: #FE8F2B;
+}
+
+.navbar-nav .nav-link,.trip_details .distance,.fare_service_details td,.why_choose h6{
+  color: #000 !important;
+  font-size: 18px;
+  font-weight: 500 !important;
+  /* border-bottom: 3px solid transparent; */
+}
+
+.title,.footer_top ul li a:hover,.nav-link.active,.book_by_whatsapp,.trip_details h3 span,.fare_service_details td.yellow{
+  color: #FE8F2B !important;
+}
+
+.navbar-nav .nav-link:hover,.navbar-nav .nav-link.active{
+  /* border-bottom: 3px solid #FE8F2B; */
+  font-weight: 500;
+}
+.service_menu{
+  display: flex;
+  gap: 20px;
+}
+ul.row.dropdown-menu .dropdown-item
+ {
+    width: 100%;
+    padding: 0.45rem 1rem;
+ }
+ ul.row.dropdown-menu{
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #FFF;  
+  left: -110px;
+}
+ .wrap1 a {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.wrap2 a {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.wrap3 a {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.dropend .dropdown-toggle {
+  margin-left: 1em;
+}
+
+.navbar-dark .navbar-toggler {
+  background-color: #FE8F2B;
+}
+
+.dropdown-item:hover,.home_banner .nav-link.active,.trip_details ul:hover {
+  background-color: #FE8F2B !important;
+  color: #fff !important;
+}
+.dropdown-item:hover{
+  color: #FE8F2B !important;
+  background-color: transparent !important;
+}
+.dropdown .dropdown-menu {
+  display: none;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+}
+.home_banner{
+  padding: 80px 45px;
+  border-radius: 22px;
+}
+.home_banner li.nav-item .nav-link{
+  border-radius: 8px;
+  background: #F0F0F0;
+  padding: 10px 31px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+  width: 145px;
+}
+.book_details {
+  margin-top: -50px;
+}
+.home_banner .tab-content svg{
+  position: absolute;
+  right: 10px;
+  top: 11px;
+}
+.form_tab{
+  border-radius: 18px;
+  background: #FFF;
+  padding: 37px 32px;
+}
+.home_banner .form-control{
+  padding: 14px 14px;
+  border-radius: 8px;
+  background: #F0F0F0;
+  border-color: transparent;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+}
+.book_details figure,.cab_book_about figure{
+  width: 20%;
+  float: left;
+  margin-right: 9px;
+}
+.book_details .book_details_price,.cab_book_about_product,.key_features figcaption{
+    width: 80%;
+}
+.book_details h6,.daley_to_book h6,.contact_address h6,.get_in_touch h6,.faq .accordion-button{
+  font-size: 22px;
+  font-weight: 600;
+}
+.book_details span,.del_to_agr_price .setas span{
+  font-size: 12px;
+  font-weight: 500;
+}
+.book_details .row{
+  border-radius: 13px;
+  background: #FE8F2B;
+  margin:0 150px;
+  padding: 27px 20px;
+}
+.para_details{
+  color: #6A6A6A;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cab_book_about_product p{
+  color: #6A6A6A;
+  font-size: 12px;
+}
+.cab_book_about_product h6,.our_routes_box h6{
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cab_book_about{
+  margin: 0 90px;
+  padding-top: 65px;
+}
+.our_routes_box{
+  border-radius: 22px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #FFF;
+  padding: 21px 24px;
+}
+.our_routes_box h6.cl2 span{
+  color: #FF8400;
+  font-size: 24px;
+  font-weight: 600;
+}
+.our_routes_box p,.del_to_agr_price .charges p,.fare_service_details p,.why_choose p,.how_to_book p{
+  font-size: 14px;
+  font-weight: 400;
+}
+.product_list_btn{
+  border-radius: 4px;
+  padding: 8px 24px;
+}
+.product_list_btn:hover{
+  background: #242424;
+  color: white;
+  border-color: #242424;
+}
+.our_routes_box:hover{
+  border: 1px solid #FE8F2B;
+}
+.taxi_services figure {
+    width: 6%;
+}
+.cab_book_about_product
+ {
+    width: 94%;
+}
+.blog p,.recent_post p,.recent_post p{
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 14px;
+  font-weight: 600;
+}
+.client_testi p,.faq .accordion-body{
+  color: #212529;
+  font-size: 18px;
+  font-weight: 400;
+}
+.client_testi img{
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+.client_testi svg{
+    opacity: 0.4;
+}
+.slick-center svg{
+    opacity: 1;
+}
+.slick-center img{
+  border: 10px solid #FFEECE;
+}
+.h_testiminoals_slider ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+.h_testiminoals_slider ul{
+  text-align: center;
+  justify-content: space-between;
+}
+.h_testiminoals_slider ul li button{
+    font-size: 0;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+.h_testiminoals_slider li.slick-active button{
+  background-color: #FE8F2B;
+}
+.whats_right_icon img{
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  z-index: 99999;
+  width: 50px;
+}
+.footer_btm_list li a{
+  color: #AFAFAF;
+  text-decoration: underline;
+}
+.footer_btm_list li a{
+  border-right: 1px solid #AFAFAF;
+}
+.footer_btm_list ul li:last-child,.footer_btm_list li:last-child a{
+  border: none;
+}
+.notre_mission_box figure:hover,.trip_details ul:hover .distance,.trip_details ul:hover,
+.trip_details ul:hover h3,.trip_details ul:hover h3 span{
+  color: white !important;
+}
+.footer_top a,.footer_top p{
+  font-size: 16px !important;
+  font-family: "Poppins", sans-serif !important;
+}
+.footer_top{
+  z-index: 9999;
+}
+.footer_top h5{
+  font-size: 22px;
+}
+.footer_top a,.footer_top p{
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.70);
+}
+.footer_car_icon{
+  position: absolute;
+  left: 0;
+  bottom: -87px;
+  z-index: -1;
+}
+.head_top_social img {
+  max-width: 100%;
+  border: 2px solid transparent;
+  border-radius: 14px;
+}
+.head_top_social a:hover img {
+  border: 2px solid #FE8F2B;
+}
+.copyrights p{
+  color: rgba(255, 255, 255, 0.40) !important;
+  font-size: 16px;
+  font-weight: 400;
+}
+.reach_us li:before{
+  position: absolute;
+  left: -16px;
+  content: '';
+  top: 10px;
+  background:  rgba(255, 255, 255, 0.70);
+  width: 3.5px;
+  border-radius: 50%;
+  height: 3.5px;
+}
+.copyrights p{
+  position: relative;
+  z-index: 999999999;
+}
+.daley_to_book .btn:hover {
+  background-color: #FE8F2B !important;
+}
+.mob_types,.contacter_mob{
+  display: none;
+}
+
+/******************************* Contact **************************/
+.contact_address a{
+  text-decoration: underline !important;
+}
+.get_in_touch span{
+font-weight: 400;
+}
+.get_in_touch ul li i{
+  font-size: 17px;
+  color: black;
+  width: 49px;
+  height: 49px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid #B7B7B7;
+  line-height: 47px;
+}
+.get_in_touch .form-control {
+  margin-bottom: 3rem !important;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #CACACA !important;
+  border-radius: 0;
+  color: white;
+  padding: 10px 10px 32px 10px;
+  color: rgba(0, 0, 0, 0.44);
+  font-size: 22px;
+  font-weight: 400;
+}
+.contact_address p{
+  font-size: 20px;
+  font-weight: 400;
+}
+h6.add_line:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+  background: #FE8F2B;
+  width: 27px;
+  height: 3px;
+}
+/************************** Blog *********************/
+.recent_post h4{
+  font-size: 17px;
+}
+.post_details{
+  border-radius: 33px;
+  background: #FFF;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.05);
+  padding: 52px 49px 52px 49px;
+}
+.post_details p{
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 16px;
+  font-weight: 500;
+}
+/************************** About *********************/
+.about_banner h1 {
+  font-size: 80px;
+  font-weight: 600 !important;
+}
+.about_banner {
+  padding: 260px 45px 140px 45px;
+  text-align: center;
+}
+.about_counter h4{
+  Color: #FAFBFA;
+  font-size: 46px;
+  font-weight: 600;
+}
+.about_counter h6{
+  font-size: 27px;
+  font-weight: 400;
+  Color: #FAFBFA;
+}
+.about_counter_shape{
+  padding: 39px 50px;
+  margin-top: -70px;
+}
+.about_subhead{
+  font-size: 42px;
+  font-weight: 500;
+}
+.discover_historic p,.behind_profile p,.trip_details p{
+  color: #373737;
+  font-size: 18px;
+  font-weight: 500;
+}
+.discover_historic{
+  padding-bottom: 150px;
+}
+.key_features p,.behind_profile p{
+  color: #A8A8A8 !important;
+}
+.key_features span{
+  color: #FE8F2B;
+  font-size: 24px;    
+  font-weight: 600;
+}
+.key_features ul li{
+  border-radius: 30px;
+  background: #FFF;
+  width: fit-content;
+  margin-left: 0;
+  gap: 15px;
+}
+.key_features ul li:hover{
+  box-shadow: 0 2px 80px 0 rgba(0, 0, 0, 0.10);
+  cursor: pointer;
+}
+.behind_profile .row{
+  margin: 120px 0;
+}
+.behind_profile_two img {
+    margin-top: 50px;
+}
+.behind_profile_three img {
+    margin-top: -50px;
+}
+.key_features ul li img{
+  width: 100px;
+}
+/****************************** services *********************/
+.services_source_dest p{
+  color: #5F5F5F;
+  font-size: 22px;
+  font-weight: 500;
+}
+.services_source_dest ul li h3,.trip_details h3{
+  font-size: 32px;
+  font-weight: 500;
+}
+.del_to_agr_price ul li h5{
+  color: #1A202C;
+  font-size: 20px;
+  font-weight: 500;
+}
+.del_to_agr_price .setas{
+  border-radius: 8px;
+  background: #FFEFDE;
+}
+.del_to_agr_price .total_fare span{
+  color: #F93;
+  font-size: 18px;
+  font-weight: 600;
+}
+.del_to_agr_price .total_fare h6,.del_to_agr_price .charges h6{
+  color: #8C8C8C;
+  font-size: 14px;
+  font-weight: 600;
+}
+.del_to_agr_price .charges h6,.del_to_agr_price .charges p,.why_choose p,
+.how_to_book p{
+  font-weight: 500 !important;
+}
+.del_to_agr_price figure{
+  border-radius: 13px;
+  background: #F1F1F1;
+  padding: 15px 15px;
+}
+.del_to_agr_price .row ul{
+  justify-content: space-between;
+}
+.del_to_agr_price .row{
+  gap: 30px;
+}
+.del_to_agr_price .col-md-4 {
+    margin: 0 50px;
+}
+.del_to_agr_price.slick-arrow, .del_to_agr_price .slick-arrow {
+  font-size: 0;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  border: 2px solid transparent;
+  max-width: 100%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  line-height: 43px;
+}
+.del_to_agr_price .slick-next:before {
+  content: '\f105';
+  font-size: 64px;
+  font-family: FontAwesome;
+  color: #FE8F2B;
+}
+.del_to_agr_price .slick-prev:after{
+   content: '\f104';
+  font-size: 64px;
+  font-family: FontAwesome;
+  color: #FE8F2B;
+}
+.del_to_agr_price button.slick-next.slick-arrow{
+    right: 0px;
+}
+.del_to_agr_price button.slick-prev.slick-arrow{
+    left: 0px;
+}
+.trip_details h6,.fare_service_details td{
+  color: rgba(0, 0, 0, 0.80) !important;
+}
+.trip_details .distance,.fare_service_details thead th{
+  font-weight: 600;
+}
+.trip_details ul{
+  border-radius: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  background: #FFF;
+}
+.trip_details ul:hover svg{
+  fill: #fff !important;
+}
+.trip_details ul:hover p,.fare_service_details thead{
+  color: #fff !important;
+}
+.fare_service_details .table-responsive{ 
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  box-shadow: 0 4px 49.2px 0 rgba(158, 158, 158, 0.15);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.fare_service_details tr{
+  border-color: rgba(0, 0, 0, 0.09);
+}
+.fare_service_details td {
+    padding: 13px 10px;
+}
+.why_choose p,.how_to_book p{
+  color: #6A6A6A !important;
+}
+.why_choose svg {
+    float: left;
+    width: 61px;
+}
+.why_choose figure{
+  display: flex;
+}
+
+.how_to_book h6{
+  font-size: 16px;
+  font-weight: 700;
+}
+.how_to_book ul:before{
+  content: '';
+  position: absolute;
+  width: 80%;
+  background: #fe8f2b;
+  height: 2px;
+  top: 22px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.faq h2{
+  font-size: 49px;
+  font-weight: 800;
+}
+.faq h2 span{
+  color: #7F7F7F;
+}
+.faq .accordion-button::after{
+  background-image: url(../image/acco.png) !important;
+  width: 56px;
+  height: 56px;
+  background-size: cover;
+  border-radius: 50%;
+}
+.faq .accordion-button:not(.collapsed)::after
+ {
+  background-image: url(../image/acco_active.png) !important;
+  transform: rotate(0deg);
+  width: 50px;
+  height: 50px;
+}
+.faq .accordion-item.border-0 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 769px) {
+  .dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+  .dropend .dropdown-toggle {
+    margin-left: 0.5em;
+  }
+}
+
+@media(max-width:1300px) {
+  h2 {
+    font-size: 36px;
+}
+.book_details .row,.cab_book_about{
+  margin: 0 0px;
+}
+.about_counter h4{
+  font-size: 36px;
+}
+.about_counter h6 {
+    font-size: 17px;
+}
+.about_counter_shape {
+    padding: 30px 50px;
+}
+}
+
+@media(max-width:1024px) {
+
+}
+
+@media(max-width:991px) {
+
+.footer_top ul li a,.footer_top p,.copyrights p{
+  font-size: 14px !important;
+}
+.h_eng_innovation ul li {
+  width: 40%;
+}
+h2 {
+  font-size: 40px;
+}
+h1 {
+    font-size: 29px;
+}
+.home_banner li.nav-item .nav-link {
+    padding: 10px 11px;
+    font-size: 15px;
+    width: 115px;
+}
+p {
+    font-size: 15px;
+}
+.book_details h6, .daley_to_book h6 {
+    font-size: 16px;
+}
+.about_counter_shape {
+    padding: 18px 50px;
+  }
+  .about_banner h1 {
+    font-size: 60px;
+  }
+  .about_subhead {
+    font-size: 35px;
+  }
+}
+
+@media(max-width:579px) {
+
+}
+
+@media(max-width:767px) {
+  
+.footer_top .head_top_social{
+  justify-content: start;
+}
+.p0,.get_in_touch ul,.desk_blog,.contacter_desk,.service_historic_agra img{
+  display: none;
+}
+.home_banner {
+  padding: 45px 45px;
+}
+.para_details{
+  padding: 20px 0 !important;
+}
+.book_details figure, .cab_book_about figure {
+  width: 8%;
+}
+.cab_book_about .btn,.cab_book_about ul li,.service_historic_agra .btn,.service_historic_agra ul li{
+  width: 100% !important;
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+}
+.cab_book_about {
+  padding-top: 0;
+}
+.daley_to_book ul {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.daley_to_book{
+  text-align: center;
+}
+.daley_to_book .row{
+  justify-content: center;
+}
+.mob_types,.contacter_mob{
+  display: block;
+}
+.get_in_touch,.get_in_touch  form {
+  margin-top: 0 !important;
+}
+.contact_address iframe{
+  width: 100%;
+}
+.post_details{
+  padding: 42px 25px 42px 25px;
+}
+.about_banner{
+  padding: 155px 45px;
+}
+.about_counter_shape{
+  padding: 13px 0px;
+}
+.about_counter_shape{
+  background-image: none !important;
+}
+.about_counter_shape .about_counter_box{
+  background-image: url(../image/counter_back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 23px 30px 23px 23px;
+  margin-bottom: 20px;
+  width: auto;
+  float: left;
+  background-position: right;
+}
+.about_counter_shape {
+  margin-top: -180px;
+}
+.about_banner h1 {
+  font-size: 41px;
+  text-align: left;
+}
+.about_banner {
+  padding: 96px 17px 235px 15px;
+}
+.about_counter h4{
+  font-size: 25px;
+}
+.about_counter h6,.trip_details h6 {
+  font-size: 15px;
+}
+.discover_historic {
+    padding-bottom: 20px;
+}
+.behind_profile .row {
+  margin: 70px 0;
+  text-align: center;
+}
+.behind_profile_three img {
+    margin-top: 60px;
+}
+.about_subhead {
+  font-size: 29px;
+}
+.service_menu {
+  display: inline-block;
+  gap: 20px;
+}
+.key_features .row{
+  flex-direction: column-reverse;
+}
+.fare_service_details thead, .fare_service_details thead th,.fare_service_details td,
+.trip_details p,.faq .accordion-body{
+  font-size: 15px;
+}
+.fare_service_details,.services_source_dest {
+  padding-top: 0 !important;
+}
+.services_source_dest p {
+  font-size: 16px;
+}
+.services_source_dest ul li h3 {
+  font-size: 25px;
+}
+.trip_details h3 {
+  font-size: 23px;
+}
+.trip_details{
+  padding-bottom: 0 !important;
+}
+.faq h2 {
+  font-size: 39px;
+}
+.faq .accordion-button{
+  font-size: 19px;
+}
+.faq .accordion-button:not(.collapsed)::after{
+  width: 40px;
+  height: 40px;
+}
+.faq .accordion-button::after{
+  width: 50px;
+  height: 50px;
+}
+.how_to_book ul li {
+  position: relative;
+}
+.how_to_book ul li img {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  width: 30px
+}
+.how_to_book ul:before {
+  transform: translate(-50%, -50%);
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #fe8f2b;
+  height: 84%;
+  top: 50%;
+  left: 47px;
+  z-index: -1;
+}
+.how_to_book ul{
+  display: inline-block !important;
+}
+.how_to_book svg{
+  width: 35px;
+}
+}
+
+@media(max-width:479px) {
+  h1 {
+    font-size: 33px;
+}
+h2,.faq h2 {
+  font-size: 29px;
+}
+.footer_top ul li a, .footer_top p, .copyrights p {
+  font-size: 12px;
+}
+.book_details figure, .cab_book_about figure {
+    width: 13%;
+}
+.blog img{
+  width: 100%;
+}
+h4,.key_offers_services h6,.behind_profile h6 {
+  font-size: 22px;
+}
+.about_banner h1 {
+  font-size: 28px;
+}
+.about_banner {
+  padding: 83px 17px 203px 15px;
+ }
+.about_counter_shape .about_counter_box{
+  margin-bottom: 14px;
+}
+.discover_historic p,.behind_profile p{
+  font-size: 17px;
+}
+.footer_top h5 {
+    font-size: 19px;
+}
+}
+
+@media(max-width:374px) {
+h1 {
+  font-size: 27px;
+}
+.blog_subtitle {
+  font-size: 20px;
+}
+.discover_historic p {
+  font-size: 15px;
+}
+.about_subhead {
+  font-size: 24px;
+}
+.key_offers_services h6{
+  font-size: 17px;
+}
+}
