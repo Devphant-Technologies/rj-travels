@@ -14,6 +14,15 @@ img {
   max-width: 100%;
 }
 
+.services_slider {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.fleet-left-shift {
+    margin-left: 70px; /* Adjust value as needed */
+}
+
 h1,
 h2,
 h3,
@@ -65,6 +74,7 @@ h1 {
 .bg_grey,.h_eng_innovation ul li:nth-child(odd){
   background-color: #031C35;
 }
+
 
 
 .cl1{
@@ -149,29 +159,29 @@ h5{
 }
 .service_menu{
   display: flex;
-  gap: 20px;
+  gap: 55px;
 }
 ul.row.dropdown-menu .dropdown-item
  {
     width: 100%;
-    padding: 0.45rem 1rem;
+    padding: 0.55rem 1rem;
  }
  ul.row.dropdown-menu{
   border-radius: 18px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   background: #FFF;  
-  left: -110px;
+  left: -400px;
 }
  .wrap1 a {
     padding-right: 0 !important;
-    padding-left: 0 !important;
+    padding-left: 40px !important;
 }
 .wrap2 a {
-    padding-left: 0 !important;
+    padding-left: 40px !important;
     padding-right: 0 !important;
 }
 .wrap3 a {
-    padding-left: 0 !important;
+    padding-left: 40px !important;
     padding-right: 0 !important;
 }
 .dropend .dropdown-toggle {
@@ -243,6 +253,16 @@ ul.row.dropdown-menu .dropdown-item
 }
 .book_details .book_details_price,.cab_book_about_product,.key_features figcaption{
     width: 80%;
+}
+.daley_to_book {
+  
+  min-height: 700px; /* Adjust as needed for your image */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .book_details h6,.daley_to_book h6,.contact_address h6,.get_in_touch h6,.faq .accordion-button{
   font-size: 22px;
@@ -319,6 +339,16 @@ ul.row.dropdown-menu .dropdown-item
   color: #212529;
   font-size: 18px;
   font-weight: 400;
+}
+.client_testi .col-md-4 {
+    margin: 0 27px;
+}
+.trip_details .col-md-4
+ {
+    margin: 0 0px !important;
+}
+.trip_details .row {
+    gap: 0 !important;
 }
 .client_testi img{
   border: 10px solid transparent;
@@ -710,8 +740,20 @@ h6.add_line:before{
 .faq .accordion-item.border-0 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.06) !important;
 }
-
-
+a.dropdown-item{
+    position: relative;
+}
+a.dropdown-item:before
+ {
+    content: url(../image/ploygon.png);
+    position: absolute;
+    left: 0;
+    top: 7px;
+    opacity: 0;
+}
+a.dropdown-item:hover:before {
+    opacity: 1;
+}
 
 
 
@@ -754,6 +796,10 @@ h6.add_line:before{
 
 .footer_top ul li a,.footer_top p,.copyrights p{
   font-size: 14px !important;
+}
+.service_menu {
+  display: inline-block;
+  gap: 20px;
 }
 .h_eng_innovation ul li {
   width: 40%;
@@ -822,7 +868,9 @@ p {
 }
 .daley_to_book{
   text-align: center;
+ 
 }
+
 .daley_to_book .row{
   justify-content: center;
 }
@@ -885,10 +933,6 @@ p {
 }
 .about_subhead {
   font-size: 29px;
-}
-.service_menu {
-  display: inline-block;
-  gap: 20px;
 }
 .key_features .row{
   flex-direction: column-reverse;
