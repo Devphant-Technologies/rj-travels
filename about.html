@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>RJTravels</title>
-        <link rel="stylesheet" href="asset/fonts/font-awesome.min.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="asset/css/slick.css">
-        <link rel="stylesheet" href="asset/css/style.css" type="text/css">
-        <script type="text/javascript" src="asset/js/jquery.min.js"></script>
-        <script type="text/javascript" src="asset/js/slick.min.js"></script>
-    </head>
-    <style></style>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ Travels</title>
+    <link rel="icon" type="image/png" href="asset/image/rj-title.jpg">
+
+    <link rel="stylesheet" href="asset/fonts/font-awesome.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="asset/css/slick.css">
+    <link rel="stylesheet" href="asset/css/style.css" type="text/css">
+
+    <script type="text/javascript" src="asset/js/jquery.min.js"></script>
+    <script type="text/javascript" src="asset/js/slick.min.js"></script>
+</head>
+<style></style>
+<body>
 
 <nav class="navbar navbar-expand-lg navbar-dark py-4">
     <div class="container">
@@ -22,13 +26,13 @@
             <img src="asset/image/logo.png" alt="">
         </a>
         <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
         >
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,30 +41,40 @@
                 <li class="nav-item mx-3">
                     <a class="nav-link " aria-current="page" href="index.html">Home</a>
                 </li>
-            
+
                 <li class="nav-item mx-3">
                     <a class="nav-link active" href="about.html">About</a>
                 </li>
                 <li class="nav-item mx-3 dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
-                    </a>
+                    <div class="d-flex align-items-center">
+                        <!-- Clickable Services link -->
+                        <a class="nav-link" href="services.html">Services</a>
+
+                        <!-- Dropdown toggle (just arrow) -->
+                        <a class="nav-link dropdown-toggle dropdown-toggle-split" href="#" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false"></a>
+                    </div>
                     <ul class="row dropdown-menu mt-0">
                         <div class="service_menu">
                             <li class="wrap1">
                                 <a class="dropdown-item px-3" href="services.html">Ahmedabad to Agra</a>
                                 <a class="dropdown-item px-3" href="services_ahemtodwarka.html">Ahmedabad to Dwarka</a>
-                                <a class="dropdown-item px-3" href="services_ahemtosomnath.html">Ahmedabad to Somnath</a>
-                                <a class="dropdown-item px-3" href="services_ahemtokevadia.html">Ahmedabad to Kevadia</a>
+                                <a class="dropdown-item px-3" href="services_ahemtosomnath.html">Ahmedabad to
+                                    Somnath</a>
+                                <a class="dropdown-item px-3" href="services_ahemtokevadia.html">Ahmedabad to
+                                    Kevadia</a>
                             </li>
                             <li class="wrap2">
                                 <a class="dropdown-item px-3" href="services_ahemtosurat.html">Ahmedabad to Surat</a>
                                 <a class="dropdown-item px-3" href="services_ahemtobhuj.html">Ahmedabad to Bhuj</a>
-                                <a class="dropdown-item px-3" href="services_ahemtomountabu.html">Ahmedabad to Mount Abu</a>
-                                <a class="dropdown-item px-3" href="services_ahemtojunagadh.html">Ahmedabad to Junagadh</a>
+                                <a class="dropdown-item px-3" href="services_ahemtomountabu.html">Ahmedabad to Mount
+                                    Abu</a>
+                                <a class="dropdown-item px-3" href="services_ahemtojunagadh.html">Ahmedabad to
+                                    Junagadh</a>
                             </li>
                             <li class="wrap3">
-                                <a class="dropdown-item px-3" href="services_ahemtopalitana.html">Ahmedabad to Palitana</a>
+                                <a class="dropdown-item px-3" href="services_ahemtopalitana.html">Ahmedabad to
+                                    Palitana</a>
                                 <a class="dropdown-item px-3" href="services_ahemtodiu.html">Ahmedabad to Diu</a>
                                 <a class="dropdown-item px-3" href="services_ahemtojamnagar.html">Surat to Jamnagar</a>
                                 <a class="dropdown-item px-3" href="services_ahemtobakor.html">Ahmedabad to Dakor</a>
@@ -72,39 +86,41 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
-            <a href="#" class="btn text-capitalize fw-bold w-auto m-0">
+            <a href="index.html#book-cab" class="btn text-capitalize fw-bold w-auto m-0">
                 Book Your Cab
             </a>
         </div>
     </div>
 </nav>
 
-<div class="home_banner about_banner" style="background-image: url('asset/image/about_banner.png');background-repeat: no-repeat;background-size: cover;">
+<div class="home_banner about_banner"
+     style="background-image: url('asset/image/about_banner.png');background-repeat: no-repeat;background-size: cover;">
     <div class="row">
         <h1 class="text-white">
-        Know more About <br>
-        RJ Travels </h1>
+            Know more About <br>
+            RJ Travels </h1>
     </div>
 </div>
 <div class="row w-100 m-0 about_counter">
-    <div class="col-md-10 about_counter_shape" style="background-image: url('asset/image/counter_back.png');background-repeat: no-repeat;background-size: cover;">
+    <div class="col-md-10 about_counter_shape"
+         style="background-image: url('asset/image/counter_back.png');background-repeat: no-repeat;background-size: cover;">
         <div class="row w-100">
             <div class="col-md-4">
                 <div class="about_counter_box">
-                <h4>450+</h4>
-                <h6>Cars</h6>
+                    <h4>450+</h4>
+                    <h6>Cars</h6>
                 </div>
             </div>
-             <div class="col-md-4">
+            <div class="col-md-4">
                 <div class="about_counter_box">
-                <h4>120+</h4>
-                <h6>Pickup Locations</h6>
+                    <h4>120+</h4>
+                    <h6>Pickup Locations</h6>
                 </div>
             </div>
-             <div class="col-md-4">
+            <div class="col-md-4">
                 <div class="about_counter_box">
-                <h4>2000+</h4>
-                <h6>Happy Cusotmers</h6>
+                    <h4>2000+</h4>
+                    <h6>Happy Cusotmers</h6>
                 </div>
             </div>
         </div>
@@ -114,62 +130,71 @@
 
 <div class="discover_historic">
     <div class="container">
-    <div class="row mt-5 align-items-center">
-        <div class="col-md-6 text-md-end text-sm-start">
-            <img src="asset/image/historic_agra.png" alt="">
+        <div class="row mt-5 align-items-center">
+            <div class="col-md-6 text-md-end text-sm-start">
+                <img src="asset/image/historic_agra.png" alt="">
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 mt-4">
+                <h2 class="text-start text-black about_subhead">A Journey That Started With One Cab</h2>
+                <p class="mt-4 mb-3">RJ Travels began with a simple mission — to make travel easier, safer, and more
+                    dependable for every Indian. What started with one car and one driver in Ahmedabad has today become
+                    a trusted name in the travel industry across Gujarat.</p>
+                <p>We weren’t just building a taxi service—we were building a relationship of trust, one trip at a time.
+                    From helping families reach weddings in distant towns, to enabling solo travelers discover the
+                    unexplored, RJ Travels became more than a cab company. We became travel companions for
+                    thousands.</p>
+            </div>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-5 mt-4">
-            <h2 class="text-start text-black about_subhead">A Journey That Started With One Cab</h2>
-            <p class="mt-4 mb-3">RJ Travels began with a simple mission — to make travel easier, safer, and more dependable for every Indian. What started with one car and one driver in Ahmedabad has today become a trusted name in the travel industry across Gujarat.</p>
-            <p>We weren’t just building a taxi service—we were building a relationship of trust, one trip at a time. From helping families reach weddings in distant towns, to enabling solo travelers discover the unexplored, RJ Travels became more than a cab company. We became travel companions for thousands.</p>
-        </div>
-    </div>
     </div>
 </div>
 
 <div class="key_features">
     <div class="container">
-    <div class="row mt-5 align-items-start">
-        <div class="col-md-6 mt-4">
-            <span>KEY FEATURES</span>
-            <h2 class="text-start text-black about_subhead my-4"> What Drives Us?</h2>
-            <p class="mt-4 mb-3">We believe every trip—short or long—is a story waiting to unfold. And every customer is a guest we’re privileged to serve. That’s why our drivers are more than chauffeurs—they're guides, caretakers, and problem-solvers on the road. <br> <br>
-            With 24x7 support, verified drivers, fixed pricing, and a growing network of routes, we bring reliability back to road travel—because we know you deserve better than last-minute cancellations or unpredictable fares.</p>
-            <ul class="mt-1 pt-3">
-                <li class="d-flex justify-content-center align-items-center p-4 mb-4">
-                    <figure><img src="asset/image/about_location.png" alt=""></figure>
-                    <figcaption>
-                        <div class="key_offers_services">
-                            <h6 class="cl4">Select any location</h6>
-                            <p class="w-100 mt-2">we’ll get you there, on time.</p>
-                        </div>
-                    </figcaption>
-                </li>
-                   <li class="d-flex justify-content-center align-items-center p-4 mb-4">
-                    <figure><img src="asset/image/about_calender.png" alt=""></figure>
-                    <figcaption>
-                        <div class="key_offers_services">
-                            <h6 class="cl4">Schedule your ride in seconds</h6>
-                            <p class="w-100 mt-2">over call, WhatsApp, or website</p>
-                        </div>
-                    </figcaption>
-                </li>
-                   <li class="d-flex justify-content-center align-items-center p-4 mb-4">
-                    <figure><img src="asset/image/about_coupon.png" alt=""></figure>
-                    <figcaption>
-                        <div class="key_offers_services">
-                            <h6 class="cl4">Big discounts on return rides and packages</h6>
-                            <p class="w-100 mt-2">100% transparent pricing</p>
-                        </div>
-                    </figcaption>
-                </li>
-            </ul>
+        <div class="row mt-5 align-items-start">
+            <div class="col-md-6 mt-4">
+                <span>KEY FEATURES</span>
+                <h2 class="text-start text-black about_subhead my-4"> What Drives Us?</h2>
+                <p class="mt-4 mb-3">We believe every trip—short or long—is a story waiting to unfold. And every
+                    customer is a guest we’re privileged to serve. That’s why our drivers are more than
+                    chauffeurs—they're guides, caretakers, and problem-solvers on the road. <br> <br>
+                    With 24x7 support, verified drivers, fixed pricing, and a growing network of routes, we bring
+                    reliability back to road travel—because we know you deserve better than last-minute cancellations or
+                    unpredictable fares.</p>
+                <ul class="mt-1 pt-3">
+                    <li class="d-flex justify-content-center align-items-center p-4 mb-4">
+                        <figure><img src="asset/image/about_location.png" alt=""></figure>
+                        <figcaption>
+                            <div class="key_offers_services">
+                                <h6 class="cl4">Select any location</h6>
+                                <p class="w-100 mt-2">we’ll get you there, on time.</p>
+                            </div>
+                        </figcaption>
+                    </li>
+                    <li class="d-flex justify-content-center align-items-center p-4 mb-4">
+                        <figure><img src="asset/image/about_calender.png" alt=""></figure>
+                        <figcaption>
+                            <div class="key_offers_services">
+                                <h6 class="cl4">Schedule your ride in seconds</h6>
+                                <p class="w-100 mt-2">over call, WhatsApp, or website</p>
+                            </div>
+                        </figcaption>
+                    </li>
+                    <li class="d-flex justify-content-center align-items-center p-4 mb-4">
+                        <figure><img src="asset/image/about_coupon.png" alt=""></figure>
+                        <figcaption>
+                            <div class="key_offers_services">
+                                <h6 class="cl4">Big discounts on return rides and packages</h6>
+                                <p class="w-100 mt-2">100% transparent pricing</p>
+                            </div>
+                        </figcaption>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-md-end text-sm-center">
+                <img src="asset/image/about_key_feature.png" alt="">
+            </div>
         </div>
-        <div class="col-md-6 text-md-end text-sm-center">
-            <img src="asset/image/about_key_feature.png" alt="">
-        </div>
-    </div>
     </div>
 </div>
 
@@ -184,14 +209,14 @@
                     <p>Founder</p>
                 </figcaption>
             </div>
-               <div class="col-md-4 behind_profile_two">
+            <div class="col-md-4 behind_profile_two">
                 <figure><img src="asset/image/about_behind_profile_two.png" alt=""></figure>
                 <figcaption>
                     <h6 class="cl4 mt-4">Razin khan</h6>
                     <p>Founder</p>
                 </figcaption>
             </div>
-               <div class="col-md-4 mb-4 behind_profile_three">
+            <div class="col-md-4 mb-4 behind_profile_three">
                 <figure><img src="asset/image/about_behind_profile_three.png" alt=""></figure>
                 <figcaption>
                     <h6 class="cl4 mt-4">Razin khan</h6>
@@ -210,14 +235,15 @@
                 <a href="#" class="mb-3">
                     <img src="asset/image/footer_logo.png" alt="">
                 </a>
-                <p class="mb-3 mt-4 fs-5">Empowering Your Travel Plans with Reliable, Comfortable, and Affordable Cabs – Every Mile of the Way.</p>
+                <p class="mb-3 mt-4 fs-5">Empowering Your Travel Plans with Reliable, Comfortable, and Affordable Cabs –
+                    Every Mile of the Way.</p>
                 <ul class="d-flex align-items-center head_top_social">
                     <li class="me-2 ms-0">
                         <a href="#">
                             <img src="asset/image/facebook.png" alt="">
                         </a>
                     </li>
-                        <li class="me-2 ms-0">
+                    <li class="me-2 ms-0">
                         <a href="#">
                             <img src="asset/image/linkedin.png" alt="">
                         </a>
@@ -238,16 +264,16 @@
                 <h5 class="mb-3 fw-bold text-white">Quick Links</h5>
                 <ul class="footer_top_list">
                     <li class="mb-2">
-                        <a href="">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">About Us</a>
+                        <a href="about.html">About Us</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Contact Us</a>
+                        <a href="contact.html">Contact Us</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Services</a>
+                        <a href="services.html">Services</a>
                     </li>
                 </ul>
             </div>
@@ -255,20 +281,20 @@
                 <h5 class="mb-3 fw-bold text-white">Blogs</h5>
                 <ul class="footer_top_list">
                     <li class="mb-2">
-                        <a href="">Airport Taxi Booking Guide</a>
+                        <a href="blog.html">Airport Taxi Booking Guide</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Pet-Friendly Cab Services</a>
+                        <a href="blog.html">Pet-Friendly Cab Services</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Tips for Outstation Taxi Travel</a>
+                        <a href="blog.html">Tips for Outstation Taxi Travel</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Benefits of Hourly Car Rentals</a>
+                        <a href="blog.html">Benefits of Hourly Car Rentals</a>
                     </li>
                 </ul>
             </div>
-             <div class="col-lg-3 col-md-6 mb-4 mob_types">
+            <div class="col-lg-3 col-md-6 mb-4 mob_types">
                 <h5 class="mb-3 fw-bold text-white">Types</h5>
                 <ul class="footer_top_list">
                     <li class="mb-2">
@@ -283,10 +309,10 @@
                     <li class="mb-2">
                         <a href="">Innova</a>
                     </li>
-                     <li class="mb-2">
+                    <li class="mb-2">
                         <a href="">Tempo Traveller</a>
                     </li>
-                     <li class="mb-2">
+                    <li class="mb-2">
                         <a href="">Pet Friendly Cab</a>
                     </li>
                 </ul>
@@ -303,100 +329,43 @@
                         <a href="tel:+91 70461 62162">Call: +91 70461 62162</a>
                     </li>
                     <li class="mb-3 position-relative">
-                        <a href="#">Whatsapp: +91 70461 62162</a>
+                        <a href="https://wa.me/917046162162">Whatsapp: +91 70461 62162</a>
                     </li>
                 </ul>
             </div>
         </div>
-            <div class="row text-white text-start pt-5">
-                <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 fw-bold text-white">Cab from Delhi</h5>
+        <div class="row text-white text-start pt-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+
                 <ul class="footer_top_list">
-                    <li class="mb-2">
-                        <a href="">Delhi to Agra</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Delhi to Jaipur </a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Delhi to Chandigarh</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Delhi to Amritsar</a>
-                    </li>
+                    <li class="mb-2"><a href="services.html">Ahmedabad to Agra</a></li>
+                    <li class="mb-2"><a href="services_ahemtodwarka.html">Ahmedabad to Dwarka</a></li>
+                    <li class="mb-2"><a href="services_ahemtosomnath.html">Ahmedabad to Somnath</a></li>
+                    <li class="mb-2"><a href="services_ahemtokevadia.html">Ahmedabad to Kevadia</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 fw-bold text-white">Cab from Bangalore</h5>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+
                 <ul class="footer_top_list">
-                    <li class="mb-2">
-                        <a href="">Bangalore to Mysore</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Bangalore to Coorg</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Bangalore to Ooty</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Bangalore to Pondicherry</a>
-                    </li>
+                    <li class="mb-2"><a href="services_ahemtosurat.html">Ahmedabad to Surat</a></li>
+                    <li class="mb-2"><a href="services_ahemtobhuj.html">Ahmedabad to Bhuj</a></li>
+                    <li class="mb-2"><a href="services_ahemtomountabu.html">Ahmedabad to Mount Abu</a></li>
+                    <li class="mb-2"><a href="services_ahemtojunagadh.html">Ahmedabad to Junagadh</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 fw-bold text-white">Cab from Mumbai</h5>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+
                 <ul class="footer_top_list">
-                    <li class="mb-2">
-                        <a href="">Mumbai to Shirdi</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Mumbai to Shani Shingnapur</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Mumbai to Mahabaleshwar</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Mumbai to Nashik</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 fw-bold text-white">Cab from Chennai</h5>
-                <ul class="footer_top_list">
-                    <li class="mb-2">
-                        <a href="">Chennai to Bangalore</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Chennai to Pondicherry </a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Chennai to Tirupati </a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Chennai to Mahabalipuram</a>
-                    </li>
-                    
-                </ul>
-            </div>
-              <div class="col-lg-3 col-md-6 mb-4 contacter contacter_mob">
-                <h5 class="mb-3 fw-bold text-white">Reach Us</h5>
-                           <ul class="reach_us">
-                    <li class="mb-3 d-flex align-items-center position-relative">
-                        <p>
-                            Shayana Heights, C-107, KH Rd, Nr. Sargasan Cross Road, Gandhinagar, Gujarat – 382015
-                        </p>
-                    </li>
-                    <li class="mb-2 position-relative">
-                        <a href="tel:+91 70461 62162">Call: +91 70461 62162</a>
-                    </li>
-                    <li class="mb-3 position-relative">
-                        <a href="#">Whatsapp: +91 70461 62162</a>
-                    </li>
+                    <li class="mb-2"><a href="services_ahemtopalitana.html">Ahmedabad to Palitana</a></li>
+                    <li class="mb-2"><a href="services_ahemtodiu.html">Ahmedabad to Diu</a></li>
+                    <li class="mb-2"><a href="services_ahemtojamnagar.html">Surat to Jamnagar</a></li>
+                    <li class="mb-2"><a href="services_ahemtobakor.html">Ahmedabad to Dakor</a></li>
                 </ul>
             </div>
         </div>
-    
+
     </div>
 </div>
 <div class="copyrights pt-5" style="background-color: #1B1B1B;">
@@ -412,13 +381,13 @@
 <div class="container position-relative">
     <div class="row">
         <div class="whats_right_icon">
-           <a href="https://wa.me/917046162162"><img src="asset/image/whats.png" alt=""></a>
+            <a href="https://wa.me/917046162162"><img src="asset/image/whats.png" alt=""></a>
         </div>
     </div>
 </div>
 
-        <script type="text/javascript" src="asset/js/popper.min.js"></script>
-        <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
-        <script src="asset/js/custom.js"></script>
-    </body>
+<script type="text/javascript" src="asset/js/popper.min.js"></script>
+<script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+<script src="asset/js/custom.js"></script>
+</body>
 </html>
