@@ -17,6 +17,9 @@
 
     <script type="text/javascript" src="asset/js/jquery.min.js"></script>
     <script type="text/javascript" src="asset/js/slick.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 </head>
 <style></style>
 <body>
@@ -115,126 +118,98 @@
             </div>
             <div class="col-md-6 col-lg-5">
                 <div class="form_tab">
-                    <ul class="nav nav-pills mb-3 align-items-center justify-content-center" id="pills-tab"
-                        role="tablist">
+                    <!-- Tabs -->
+                    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                    aria-selected="true">One Way
-                            </button>
+                            <button class="nav-link" id="oneway-tab" data-bs-toggle="pill" data-bs-target="#oneway"
+                                    type="button" role="tab" aria-selected="false">One Way</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-profile" type="button" role="tab"
-                                    aria-controls="pills-profile" aria-selected="false">Round
-                            </button>
+                            <button class="nav-link active" id="round-tab" data-bs-toggle="pill" data-bs-target="#round"
+                                    type="button" role="tab" aria-selected="true">Round</button>
                         </li>
                     </ul>
+
+                    <!-- Tab Content -->
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                            <div class="mb-3  position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput"
-                                       placeholder="Pickup Location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"
-                                     fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M7.5462 17.6971C7.71363 18.2234 7.42272 18.7858 6.89642 18.9532C6.39517 19.1127 6.02815 19.3407 5.80452 19.547C5.73433 19.6117 5.68668 19.6657 5.6545 19.7074C5.68466 19.732 5.72403 19.7613 5.77503 19.7952C6.05709 19.9824 6.5312 20.1899 7.20674 20.3796C8.54393 20.755 10.4487 21.0003 12.5933 21.0003C14.7379 21.0003 16.6426 20.755 17.9798 20.3796C18.6554 20.1899 19.1295 19.9824 19.4115 19.7952C19.4625 19.7613 19.5019 19.732 19.5321 19.7074C19.4999 19.6657 19.4522 19.6117 19.382 19.547C19.1584 19.3407 18.7914 19.1127 18.2901 18.9532C17.7638 18.7858 17.4729 18.2234 17.6404 17.6971C17.8078 17.1708 18.3702 16.8799 18.8965 17.0473C19.6399 17.2839 20.2729 17.6478 20.7381 18.0769C21.1684 18.4738 21.5933 19.0608 21.5933 19.7539C21.5933 20.5798 21.0069 21.1367 20.5177 21.4614C19.9901 21.8117 19.2927 22.0883 18.5205 22.3051C16.9622 22.7426 14.867 23.0003 12.5933 23.0003C10.3196 23.0003 8.22431 22.7426 6.66607 22.3051C5.89389 22.0883 5.19643 21.8117 4.66885 21.4614C4.1797 21.1367 3.59326 20.5798 3.59326 19.7539C3.59326 19.0608 4.0182 18.4738 4.44845 18.0769C4.91364 17.6478 5.54663 17.2839 6.2901 17.0473C6.81639 16.8799 7.37877 17.1708 7.5462 17.6971Z"
-                                          fill="black" fill-opacity="0.24"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M12.5933 1.25C8.29328 1.25 4.84326 4.82939 4.84326 9.2C4.84326 11.8715 6.26901 14.0049 7.80207 15.5291C9.33923 17.0573 11.0612 18.0522 11.8389 18.461C12.3143 18.7109 12.8723 18.7109 13.3477 18.461C14.1254 18.0522 15.8473 17.0573 17.3845 15.5291C18.9176 14.0049 20.3433 11.8715 20.3433 9.2C20.3433 4.82939 16.8933 1.25 12.5933 1.25ZM12.5933 6C10.9364 6 9.59326 7.34315 9.59326 9C9.59326 10.6569 10.9364 12 12.5933 12C14.2502 12 15.5933 10.6569 15.5933 9C15.5933 7.34315 14.2502 6 12.5933 6Z"
-                                          fill="black" fill-opacity="0.24"/>
-                                </svg>
-                            </div>
-                            <div class="mb-3 position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput"
-                                       placeholder="Drop Off">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                     fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M19.24 3.68959C20.5601 3.31243 21.7805 4.53279 21.4035 5.85288L17.3312 20.1104C16.8631 21.7493 14.5668 21.8201 13.9986 20.2132L11.6565 13.5889C11.6314 13.5177 11.5754 13.4617 11.5041 13.4365L4.88046 11.0958C3.27336 10.5279 3.34387 8.23137 4.98278 7.76311L19.24 3.68959Z"
-                                          fill="#B6B6B6"/>
-                                </svg>
-                            </div>
-                            <div class="mb-3 position-relative">
-                                <input type="datetime-local" id="event-datetime" name="event-datetime"
-                                       class="form-control">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-                                     fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M9.96054 0.367188C4.64054 0.367188 0.32782 4.6799 0.32782 9.99991C0.32782 15.3199 4.64054 19.6326 9.96054 19.6326C15.2806 19.6326 19.5933 15.3199 19.5933 9.99991C19.5933 4.6799 15.2806 0.367188 9.96054 0.367188ZM10.8566 6.41564C10.8566 5.92076 10.4554 5.51957 9.96054 5.51957C9.46564 5.51957 9.06447 5.92076 9.06447 6.41564V9.99991C9.06447 10.2375 9.15892 10.4655 9.32693 10.6335L11.1191 12.4257C11.469 12.7756 12.0364 12.7756 12.3863 12.4257C12.7362 12.0757 12.7362 11.5083 12.3863 11.1584L10.8566 9.62876V6.41564Z"
-                                          fill="#B6B6B6"/>
-                                </svg>
-                            </div>
-                            <div class="mb-3 position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput"
-                                       placeholder="Enter Mobile Number">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="23" viewBox="0 0 15 23"
-                                     fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M11.6864 0.848221C10.9556 0.749961 10.0298 0.749981 8.89696 0.750001H5.78956C4.65673 0.749981 3.731 0.749961 3.00015 0.848221C2.2362 0.950931 1.57386 1.17321 1.04517 1.70191C0.516472 2.2306 0.294192 2.89294 0.191482 3.65689C0.0932222 4.38774 0.0932423 5.31347 0.0932623 6.44629V16.5537C0.0932423 17.6865 0.0932222 18.6123 0.191482 19.3431C0.294192 20.1071 0.516472 20.7694 1.04517 21.2981C1.57386 21.8268 2.2362 22.0491 3.00015 22.1518C3.731 22.25 4.65671 22.25 5.78956 22.25H8.89696C10.0298 22.25 10.9556 22.25 11.6864 22.1518C12.4504 22.0491 13.1127 21.8268 13.6414 21.2981C14.1701 20.7694 14.3924 20.1071 14.4951 19.3431C14.5933 18.6123 14.5933 17.6865 14.5933 16.5537V6.44632C14.5933 5.31348 14.5933 4.38775 14.4951 3.65689C14.3924 2.89294 14.1701 2.2306 13.6414 1.70191C13.1127 1.17321 12.4504 0.950931 11.6864 0.848221ZM7.34326 18C6.79096 18 6.34326 18.4477 6.34326 19C6.34326 19.5523 6.79096 20 7.34326 20H7.35326C7.90556 20 8.35326 19.5523 8.35326 19C8.35326 18.4477 7.90556 18 7.35326 18H7.34326Z"
-                                          fill="#B6B6B6"/>
-                                </svg>
-                            </div>
-                            <div class="w-100">
-                                <a href="#" class="btn text-capitalize fw-bold m-0 w-100">
-                                    Submit Your Book
-                                </a>
-                            </div>
+                        <!-- One Way -->
+                        <div class="tab-pane fade" id="oneway" role="tabpanel" aria-labelledby="oneway-tab">
+                            <form onsubmit="sendToWhatsAppOneWay(event)" method="POST" class="booking-form">
+                                <div class="mb-3 position-relative">
+                                    <input type="text" class="form-control ps-5" name="pickup" placeholder="Pickup Location" required>
+                                    <span class="position-absolute top-50 start-0 translate-middle-y ps-3">
+                            📍
+                        </span>
+                                </div>
+                                <div class="mb-3 position-relative">
+                                    <input type="text" class="form-control ps-5" name="dropoff" placeholder="Drop Off" required>
+                                    <span class="position-absolute top-50 start-0 translate-middle-y ps-3">
+                            📍
+                        </span>
+                                </div>
+                                <div class="mb-3 position-relative">
+                                    <input type="datetime-local" class="form-control ps-5" name="datetime" required>
+                                    <span class="position-absolute top-50 start-0 translate-middle-y ps-3">
+                            🕒
+                        </span>
+                                </div>
+                                <div class="mb-3 position-relative">
+                                    <input type="text" class="form-control ps-5" name="mobile" placeholder="Enter Mobile Number" required>
+                                    <span class="position-absolute top-50 start-0 translate-middle-y ps-3">
+                            📱
+                        </span>
+                                </div>
+                                <div class="w-100">
+                                    <button type="submit" class="btn btn-primary w-100">Submit Your Booking</button>
+                                </div>
+                            </form>
                         </div>
-                        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel"
-                             aria-labelledby="pills-profile-tab">
-                            <div class="mb-3  position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput"
-                                       placeholder="Pickup Location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"
-                                     fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M7.5462 17.6971C7.71363 18.2234 7.42272 18.7858 6.89642 18.9532C6.39517 19.1127 6.02815 19.3407 5.80452 19.547C5.73433 19.6117 5.68668 19.6657 5.6545 19.7074C5.68466 19.732 5.72403 19.7613 5.77503 19.7952C6.05709 19.9824 6.5312 20.1899 7.20674 20.3796C8.54393 20.755 10.4487 21.0003 12.5933 21.0003C14.7379 21.0003 16.6426 20.755 17.9798 20.3796C18.6554 20.1899 19.1295 19.9824 19.4115 19.7952C19.4625 19.7613 19.5019 19.732 19.5321 19.7074C19.4999 19.6657 19.4522 19.6117 19.382 19.547C19.1584 19.3407 18.7914 19.1127 18.2901 18.9532C17.7638 18.7858 17.4729 18.2234 17.6404 17.6971C17.8078 17.1708 18.3702 16.8799 18.8965 17.0473C19.6399 17.2839 20.2729 17.6478 20.7381 18.0769C21.1684 18.4738 21.5933 19.0608 21.5933 19.7539C21.5933 20.5798 21.0069 21.1367 20.5177 21.4614C19.9901 21.8117 19.2927 22.0883 18.5205 22.3051C16.9622 22.7426 14.867 23.0003 12.5933 23.0003C10.3196 23.0003 8.22431 22.7426 6.66607 22.3051C5.89389 22.0883 5.19643 21.8117 4.66885 21.4614C4.1797 21.1367 3.59326 20.5798 3.59326 19.7539C3.59326 19.0608 4.0182 18.4738 4.44845 18.0769C4.91364 17.6478 5.54663 17.2839 6.2901 17.0473C6.81639 16.8799 7.37877 17.1708 7.5462 17.6971Z"
-                                          fill="black" fill-opacity="0.24"/>
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M12.5933 1.25C8.29328 1.25 4.84326 4.82939 4.84326 9.2C4.84326 11.8715 6.26901 14.0049 7.80207 15.5291C9.33923 17.0573 11.0612 18.0522 11.8389 18.461C12.3143 18.7109 12.8723 18.7109 13.3477 18.461C14.1254 18.0522 15.8473 17.0573 17.3845 15.5291C18.9176 14.0049 20.3433 11.8715 20.3433 9.2C20.3433 4.82939 16.8933 1.25 12.5933 1.25ZM12.5933 6C10.9364 6 9.59326 7.34315 9.59326 9C9.59326 10.6569 10.9364 12 12.5933 12C14.2502 12 15.5933 10.6569 15.5933 9C15.5933 7.34315 14.2502 6 12.5933 6Z"
-                                          fill="black" fill-opacity="0.24"/>
-                                </svg>
-                            </div>
+
+                        <!-- Round Trip -->
+                        <div class="tab-pane fade show active" id="round" role="tabpanel" aria-labelledby="round-tab">
+                            <form onsubmit="sendToWhatsAppRound(event)" class="booking-form">
                             <div class="mb-3 position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput"
-                                       placeholder="Drop Off">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
-                                     fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M19.24 3.68959C20.5601 3.31243 21.7805 4.53279 21.4035 5.85288L17.3312 20.1104C16.8631 21.7493 14.5668 21.8201 13.9986 20.2132L11.6565 13.5889C11.6314 13.5177 11.5754 13.4617 11.5041 13.4365L4.88046 11.0958C3.27336 10.5279 3.34387 8.23137 4.98278 7.76311L19.24 3.68959Z"
-                                          fill="#B6B6B6"/>
-                                </svg>
-                            </div>
-                            <div class="mb-3 position-relative">
-                                <input type="datetime-local" id="event-datetime" name="event-datetime"
-                                       class="form-control">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-                                     fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M9.96054 0.367188C4.64054 0.367188 0.32782 4.6799 0.32782 9.99991C0.32782 15.3199 4.64054 19.6326 9.96054 19.6326C15.2806 19.6326 19.5933 15.3199 19.5933 9.99991C19.5933 4.6799 15.2806 0.367188 9.96054 0.367188ZM10.8566 6.41564C10.8566 5.92076 10.4554 5.51957 9.96054 5.51957C9.46564 5.51957 9.06447 5.92076 9.06447 6.41564V9.99991C9.06447 10.2375 9.15892 10.4655 9.32693 10.6335L11.1191 12.4257C11.469 12.7756 12.0364 12.7756 12.3863 12.4257C12.7362 12.0757 12.7362 11.5083 12.3863 11.1584L10.8566 9.62876V6.41564Z"
-                                          fill="#B6B6B6"/>
-                                </svg>
-                            </div>
-                            <div class="mb-3 position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput"
-                                       placeholder="Enter Mobile Number">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="23" viewBox="0 0 15 23"
-                                     fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M11.6864 0.848221C10.9556 0.749961 10.0298 0.749981 8.89696 0.750001H5.78956C4.65673 0.749981 3.731 0.749961 3.00015 0.848221C2.2362 0.950931 1.57386 1.17321 1.04517 1.70191C0.516472 2.2306 0.294192 2.89294 0.191482 3.65689C0.0932222 4.38774 0.0932423 5.31347 0.0932623 6.44629V16.5537C0.0932423 17.6865 0.0932222 18.6123 0.191482 19.3431C0.294192 20.1071 0.516472 20.7694 1.04517 21.2981C1.57386 21.8268 2.2362 22.0491 3.00015 22.1518C3.731 22.25 4.65671 22.25 5.78956 22.25H8.89696C10.0298 22.25 10.9556 22.25 11.6864 22.1518C12.4504 22.0491 13.1127 21.8268 13.6414 21.2981C14.1701 20.7694 14.3924 20.1071 14.4951 19.3431C14.5933 18.6123 14.5933 17.6865 14.5933 16.5537V6.44632C14.5933 5.31348 14.5933 4.38775 14.4951 3.65689C14.3924 2.89294 14.1701 2.2306 13.6414 1.70191C13.1127 1.17321 12.4504 0.950931 11.6864 0.848221ZM7.34326 18C6.79096 18 6.34326 18.4477 6.34326 19C6.34326 19.5523 6.79096 20 7.34326 20H7.35326C7.90556 20 8.35326 19.5523 8.35326 19C8.35326 18.4477 7.90556 18 7.35326 18H7.34326Z"
-                                          fill="#B6B6B6"/>
-                                </svg>
-                            </div>
-                            <div class="w-100">
-                                <a href="#" class="btn text-capitalize fw-bold m-0 w-100">
-                                    Submit Your Book
-                                </a>
-                            </div>
+                                    <input type="text" class="form-control ps-5" name="pickup" placeholder="Pickup Location" required>
+                                    <span class="position-absolute top-50 start-0 translate-middle-y ps-3">
+                            📍
+                        </span>
+                                </div>
+                                <div class="mb-3 position-relative">
+                                    <input type="text" class="form-control ps-5" name="dropoff" placeholder="Drop Off" required>
+                                    <span class="position-absolute top-50 start-0 translate-middle-y ps-3">
+                            📍
+                        </span>
+                                </div>
+                                <div class="mb-3 position-relative">
+                                    <input type="text" id="roundTripDatetime" class="form-control ps-5" name="datetime_range" placeholder="Select Start & End Date/Time" required>
+                                    <span class="position-absolute top-50 start-0 translate-middle-y ps-3">
+                            🗓️
+                        </span>
+                                </div>
+                                <div class="mb-3 position-relative">
+                                    <input type="text" class="form-control ps-5" name="mobile" placeholder="Enter Mobile Number" required>
+                                    <span class="position-absolute top-50 start-0 translate-middle-y ps-3">
+                            📱
+                        </span>
+                                </div>
+                                <div class="w-100">
+                                    <button type="submit" class="btn btn-primary w-100">Submit Your Booking</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <script>
+                // Enable flatpickr with date range & time
+                flatpickr("#roundTripDatetime", {
+                    mode: "range",
+                    enableTime: true,
+                    dateFormat: "Y-m-d H:i",
+                    time_24hr: true,
+                });
+            </script>
         </div>
     </div>
 </div>
