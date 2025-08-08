@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>RJTravels</title>
-        <link rel="stylesheet" href="asset/fonts/font-awesome.min.css" type="text/css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="asset/css/slick.css">
-        <link rel="stylesheet" href="asset/css/style.css" type="text/css">
-        <script type="text/javascript" src="asset/js/jquery.min.js"></script>
-        <script type="text/javascript" src="asset/js/slick.min.js"></script>
-    </head>
-    <style></style>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RJ Travels</title>
+    <link rel="icon" type="image/png" href="asset/image/rj-title.jpg">
+
+    <link rel="stylesheet" href="asset/fonts/font-awesome.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="asset/css/slick.css">
+    <link rel="stylesheet" href="asset/css/style.css" type="text/css">
+
+    <script type="text/javascript" src="asset/js/jquery.min.js"></script>
+    <script type="text/javascript" src="asset/js/slick.min.js"></script>
+</head>
+<style></style>
+<body>
 
 <nav class="navbar navbar-expand-lg navbar-dark py-4">
     <div class="container">
@@ -22,13 +27,13 @@
             <img src="asset/image/logo.png" alt="">
         </a>
         <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
         >
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,30 +42,40 @@
                 <li class="nav-item mx-3">
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
-            
+
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item mx-3 dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
-                    </a>
+                    <div class="d-flex align-items-center">
+                        <!-- Clickable Services link -->
+                        <a class="nav-link" href="services.html">Services</a>
+
+                        <!-- Dropdown toggle (just arrow) -->
+                        <a class="nav-link dropdown-toggle dropdown-toggle-split" href="#" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false"></a>
+                    </div>
                     <ul class="row dropdown-menu mt-0">
                         <div class="service_menu">
                             <li class="wrap1">
                                 <a class="dropdown-item px-3" href="services.html">Ahmedabad to Agra</a>
                                 <a class="dropdown-item px-3" href="services_ahemtodwarka.html">Ahmedabad to Dwarka</a>
-                                <a class="dropdown-item px-3" href="services_ahemtosomnath.html">Ahmedabad to Somnath</a>
-                                <a class="dropdown-item px-3" href="services_ahemtokevadia.html">Ahmedabad to Kevadia</a>
+                                <a class="dropdown-item px-3" href="services_ahemtosomnath.html">Ahmedabad to
+                                    Somnath</a>
+                                <a class="dropdown-item px-3" href="services_ahemtokevadia.html">Ahmedabad to
+                                    Kevadia</a>
                             </li>
                             <li class="wrap2">
                                 <a class="dropdown-item px-3" href="services_ahemtosurat.html">Ahmedabad to Surat</a>
                                 <a class="dropdown-item px-3" href="services_ahemtobhuj.html">Ahmedabad to Bhuj</a>
-                                <a class="dropdown-item px-3" href="services_ahemtomountabu.html">Ahmedabad to Mount Abu</a>
-                                <a class="dropdown-item px-3" href="services_ahemtojunagadh.html">Ahmedabad to Junagadh</a>
+                                <a class="dropdown-item px-3" href="services_ahemtomountabu.html">Ahmedabad to Mount
+                                    Abu</a>
+                                <a class="dropdown-item px-3" href="services_ahemtojunagadh.html">Ahmedabad to
+                                    Junagadh</a>
                             </li>
                             <li class="wrap3">
-                                <a class="dropdown-item px-3" href="services_ahemtopalitana.html">Ahmedabad to Palitana</a>
+                                <a class="dropdown-item px-3" href="services_ahemtopalitana.html">Ahmedabad to
+                                    Palitana</a>
                                 <a class="dropdown-item px-3" href="services_ahemtodiu.html">Ahmedabad to Diu</a>
                                 <a class="dropdown-item px-3" href="services_ahemtojamnagar.html">Surat to Jamnagar</a>
                                 <a class="dropdown-item px-3" href="services_ahemtobakor.html">Ahmedabad to Dakor</a>
@@ -72,415 +87,559 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
-            <a href="#" class="btn text-capitalize fw-bold w-auto m-0">
+            <a href="#book-cab" class="btn text-capitalize fw-bold w-auto m-0">
                 Book Your Cab
             </a>
         </div>
     </div>
 </nav>
-    
-<div class="container">
-    <div class="home_banner mt-5" style="background-image: url('asset/image/home_banner.png');background-repeat: no-repeat;background-size: cover;">
-            <div class="row">
-                <div class="col-md-6 col-lg-7 p0">
-                    <h1 class="text-white fw-bold">
+
+<div class="container" id="book-cab">
+    <div class="home_banner mt-5"
+         style="background-image: url('asset/image/home_banner.png');background-repeat: no-repeat;background-size: cover;">
+        <div class="row">
+            <div class="col-md-6 col-lg-7 p0">
+                <h1 class="text-white fw-bold">
                     All India Cab Service <br> from Ahmedabad – Safe,<br> Reliable & Affordable
-                    </h1>
-                    <p class="text-white py-4">
-                    From city rides to outstation travel, <br> RJ Travels offers professional cab services <br> across India, starting from Ahmedabad, Gujarat.
-                    </p>
-                    <ul>
-                        <li class="mb-3 d-inline-block">
-                            <a href="#" class="btn text-capitalize border-0 fw-bold w-auto m-0 bg-white text-black">More About Us</a>
+                </h1>
+                <p class="text-white py-4">
+                    From city rides to outstation travel, <br> RJ Travels offers professional cab services <br> across
+                    India, starting from Ahmedabad, Gujarat.
+                </p>
+                <ul>
+                    <li class="mb-3 d-inline-block">
+                        <a href="about.html" class="btn text-capitalize border-0 fw-bold w-auto m-0 bg-white text-black">More
+                            About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-5">
+                <div class="form_tab">
+                    <ul class="nav nav-pills mb-3 align-items-center justify-content-center" id="pills-tab"
+                        role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                    aria-selected="true">One Way
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-profile" type="button" role="tab"
+                                    aria-controls="pills-profile" aria-selected="false">Round
+                            </button>
                         </li>
                     </ul>
-                </div>
-                    <div class="col-md-6 col-lg-5">
-                    <div class="form_tab">
-                        <ul class="nav nav-pills mb-3 align-items-center justify-content-center" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">One Way</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Round</button>
-                        </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <div class="mb-3  position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Pickup Location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5462 17.6971C7.71363 18.2234 7.42272 18.7858 6.89642 18.9532C6.39517 19.1127 6.02815 19.3407 5.80452 19.547C5.73433 19.6117 5.68668 19.6657 5.6545 19.7074C5.68466 19.732 5.72403 19.7613 5.77503 19.7952C6.05709 19.9824 6.5312 20.1899 7.20674 20.3796C8.54393 20.755 10.4487 21.0003 12.5933 21.0003C14.7379 21.0003 16.6426 20.755 17.9798 20.3796C18.6554 20.1899 19.1295 19.9824 19.4115 19.7952C19.4625 19.7613 19.5019 19.732 19.5321 19.7074C19.4999 19.6657 19.4522 19.6117 19.382 19.547C19.1584 19.3407 18.7914 19.1127 18.2901 18.9532C17.7638 18.7858 17.4729 18.2234 17.6404 17.6971C17.8078 17.1708 18.3702 16.8799 18.8965 17.0473C19.6399 17.2839 20.2729 17.6478 20.7381 18.0769C21.1684 18.4738 21.5933 19.0608 21.5933 19.7539C21.5933 20.5798 21.0069 21.1367 20.5177 21.4614C19.9901 21.8117 19.2927 22.0883 18.5205 22.3051C16.9622 22.7426 14.867 23.0003 12.5933 23.0003C10.3196 23.0003 8.22431 22.7426 6.66607 22.3051C5.89389 22.0883 5.19643 21.8117 4.66885 21.4614C4.1797 21.1367 3.59326 20.5798 3.59326 19.7539C3.59326 19.0608 4.0182 18.4738 4.44845 18.0769C4.91364 17.6478 5.54663 17.2839 6.2901 17.0473C6.81639 16.8799 7.37877 17.1708 7.5462 17.6971Z" fill="black" fill-opacity="0.24"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5933 1.25C8.29328 1.25 4.84326 4.82939 4.84326 9.2C4.84326 11.8715 6.26901 14.0049 7.80207 15.5291C9.33923 17.0573 11.0612 18.0522 11.8389 18.461C12.3143 18.7109 12.8723 18.7109 13.3477 18.461C14.1254 18.0522 15.8473 17.0573 17.3845 15.5291C18.9176 14.0049 20.3433 11.8715 20.3433 9.2C20.3433 4.82939 16.8933 1.25 12.5933 1.25ZM12.5933 6C10.9364 6 9.59326 7.34315 9.59326 9C9.59326 10.6569 10.9364 12 12.5933 12C14.2502 12 15.5933 10.6569 15.5933 9C15.5933 7.34315 14.2502 6 12.5933 6Z" fill="black" fill-opacity="0.24"/>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="mb-3  position-relative">
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                       placeholder="Pickup Location">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M7.5462 17.6971C7.71363 18.2234 7.42272 18.7858 6.89642 18.9532C6.39517 19.1127 6.02815 19.3407 5.80452 19.547C5.73433 19.6117 5.68668 19.6657 5.6545 19.7074C5.68466 19.732 5.72403 19.7613 5.77503 19.7952C6.05709 19.9824 6.5312 20.1899 7.20674 20.3796C8.54393 20.755 10.4487 21.0003 12.5933 21.0003C14.7379 21.0003 16.6426 20.755 17.9798 20.3796C18.6554 20.1899 19.1295 19.9824 19.4115 19.7952C19.4625 19.7613 19.5019 19.732 19.5321 19.7074C19.4999 19.6657 19.4522 19.6117 19.382 19.547C19.1584 19.3407 18.7914 19.1127 18.2901 18.9532C17.7638 18.7858 17.4729 18.2234 17.6404 17.6971C17.8078 17.1708 18.3702 16.8799 18.8965 17.0473C19.6399 17.2839 20.2729 17.6478 20.7381 18.0769C21.1684 18.4738 21.5933 19.0608 21.5933 19.7539C21.5933 20.5798 21.0069 21.1367 20.5177 21.4614C19.9901 21.8117 19.2927 22.0883 18.5205 22.3051C16.9622 22.7426 14.867 23.0003 12.5933 23.0003C10.3196 23.0003 8.22431 22.7426 6.66607 22.3051C5.89389 22.0883 5.19643 21.8117 4.66885 21.4614C4.1797 21.1367 3.59326 20.5798 3.59326 19.7539C3.59326 19.0608 4.0182 18.4738 4.44845 18.0769C4.91364 17.6478 5.54663 17.2839 6.2901 17.0473C6.81639 16.8799 7.37877 17.1708 7.5462 17.6971Z"
+                                          fill="black" fill-opacity="0.24"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M12.5933 1.25C8.29328 1.25 4.84326 4.82939 4.84326 9.2C4.84326 11.8715 6.26901 14.0049 7.80207 15.5291C9.33923 17.0573 11.0612 18.0522 11.8389 18.461C12.3143 18.7109 12.8723 18.7109 13.3477 18.461C14.1254 18.0522 15.8473 17.0573 17.3845 15.5291C18.9176 14.0049 20.3433 11.8715 20.3433 9.2C20.3433 4.82939 16.8933 1.25 12.5933 1.25ZM12.5933 6C10.9364 6 9.59326 7.34315 9.59326 9C9.59326 10.6569 10.9364 12 12.5933 12C14.2502 12 15.5933 10.6569 15.5933 9C15.5933 7.34315 14.2502 6 12.5933 6Z"
+                                          fill="black" fill-opacity="0.24"/>
                                 </svg>
-                                </div>
-                                <div class="mb-3 position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Drop Off">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.24 3.68959C20.5601 3.31243 21.7805 4.53279 21.4035 5.85288L17.3312 20.1104C16.8631 21.7493 14.5668 21.8201 13.9986 20.2132L11.6565 13.5889C11.6314 13.5177 11.5754 13.4617 11.5041 13.4365L4.88046 11.0958C3.27336 10.5279 3.34387 8.23137 4.98278 7.76311L19.24 3.68959Z" fill="#B6B6B6"/>
-                                </svg>
-                                </div>
-                                <div class="mb-3 position-relative">
-                                <input type="datetime-local" id="event-datetime" name="event-datetime" class="form-control">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.96054 0.367188C4.64054 0.367188 0.32782 4.6799 0.32782 9.99991C0.32782 15.3199 4.64054 19.6326 9.96054 19.6326C15.2806 19.6326 19.5933 15.3199 19.5933 9.99991C19.5933 4.6799 15.2806 0.367188 9.96054 0.367188ZM10.8566 6.41564C10.8566 5.92076 10.4554 5.51957 9.96054 5.51957C9.46564 5.51957 9.06447 5.92076 9.06447 6.41564V9.99991C9.06447 10.2375 9.15892 10.4655 9.32693 10.6335L11.1191 12.4257C11.469 12.7756 12.0364 12.7756 12.3863 12.4257C12.7362 12.0757 12.7362 11.5083 12.3863 11.1584L10.8566 9.62876V6.41564Z" fill="#B6B6B6"/>
-                                </svg>
-                                </div>
-                                <div class="mb-3 position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Mobile Number">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="23" viewBox="0 0 15 23" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6864 0.848221C10.9556 0.749961 10.0298 0.749981 8.89696 0.750001H5.78956C4.65673 0.749981 3.731 0.749961 3.00015 0.848221C2.2362 0.950931 1.57386 1.17321 1.04517 1.70191C0.516472 2.2306 0.294192 2.89294 0.191482 3.65689C0.0932222 4.38774 0.0932423 5.31347 0.0932623 6.44629V16.5537C0.0932423 17.6865 0.0932222 18.6123 0.191482 19.3431C0.294192 20.1071 0.516472 20.7694 1.04517 21.2981C1.57386 21.8268 2.2362 22.0491 3.00015 22.1518C3.731 22.25 4.65671 22.25 5.78956 22.25H8.89696C10.0298 22.25 10.9556 22.25 11.6864 22.1518C12.4504 22.0491 13.1127 21.8268 13.6414 21.2981C14.1701 20.7694 14.3924 20.1071 14.4951 19.3431C14.5933 18.6123 14.5933 17.6865 14.5933 16.5537V6.44632C14.5933 5.31348 14.5933 4.38775 14.4951 3.65689C14.3924 2.89294 14.1701 2.2306 13.6414 1.70191C13.1127 1.17321 12.4504 0.950931 11.6864 0.848221ZM7.34326 18C6.79096 18 6.34326 18.4477 6.34326 19C6.34326 19.5523 6.79096 20 7.34326 20H7.35326C7.90556 20 8.35326 19.5523 8.35326 19C8.35326 18.4477 7.90556 18 7.35326 18H7.34326Z" fill="#B6B6B6"/>
-                                </svg>
-                                </div>
-                                <div class="w-100">
-                                    <a href="#" class="btn text-capitalize fw-bold m-0 w-100">
-                                        Submit Your Book
-                                    </a>
-                                </div>
                             </div>
-                        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                          <div class="mb-3  position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Pickup Location">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5462 17.6971C7.71363 18.2234 7.42272 18.7858 6.89642 18.9532C6.39517 19.1127 6.02815 19.3407 5.80452 19.547C5.73433 19.6117 5.68668 19.6657 5.6545 19.7074C5.68466 19.732 5.72403 19.7613 5.77503 19.7952C6.05709 19.9824 6.5312 20.1899 7.20674 20.3796C8.54393 20.755 10.4487 21.0003 12.5933 21.0003C14.7379 21.0003 16.6426 20.755 17.9798 20.3796C18.6554 20.1899 19.1295 19.9824 19.4115 19.7952C19.4625 19.7613 19.5019 19.732 19.5321 19.7074C19.4999 19.6657 19.4522 19.6117 19.382 19.547C19.1584 19.3407 18.7914 19.1127 18.2901 18.9532C17.7638 18.7858 17.4729 18.2234 17.6404 17.6971C17.8078 17.1708 18.3702 16.8799 18.8965 17.0473C19.6399 17.2839 20.2729 17.6478 20.7381 18.0769C21.1684 18.4738 21.5933 19.0608 21.5933 19.7539C21.5933 20.5798 21.0069 21.1367 20.5177 21.4614C19.9901 21.8117 19.2927 22.0883 18.5205 22.3051C16.9622 22.7426 14.867 23.0003 12.5933 23.0003C10.3196 23.0003 8.22431 22.7426 6.66607 22.3051C5.89389 22.0883 5.19643 21.8117 4.66885 21.4614C4.1797 21.1367 3.59326 20.5798 3.59326 19.7539C3.59326 19.0608 4.0182 18.4738 4.44845 18.0769C4.91364 17.6478 5.54663 17.2839 6.2901 17.0473C6.81639 16.8799 7.37877 17.1708 7.5462 17.6971Z" fill="black" fill-opacity="0.24"/>
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5933 1.25C8.29328 1.25 4.84326 4.82939 4.84326 9.2C4.84326 11.8715 6.26901 14.0049 7.80207 15.5291C9.33923 17.0573 11.0612 18.0522 11.8389 18.461C12.3143 18.7109 12.8723 18.7109 13.3477 18.461C14.1254 18.0522 15.8473 17.0573 17.3845 15.5291C18.9176 14.0049 20.3433 11.8715 20.3433 9.2C20.3433 4.82939 16.8933 1.25 12.5933 1.25ZM12.5933 6C10.9364 6 9.59326 7.34315 9.59326 9C9.59326 10.6569 10.9364 12 12.5933 12C14.2502 12 15.5933 10.6569 15.5933 9C15.5933 7.34315 14.2502 6 12.5933 6Z" fill="black" fill-opacity="0.24"/>
+                            <div class="mb-3 position-relative">
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                       placeholder="Drop Off">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M19.24 3.68959C20.5601 3.31243 21.7805 4.53279 21.4035 5.85288L17.3312 20.1104C16.8631 21.7493 14.5668 21.8201 13.9986 20.2132L11.6565 13.5889C11.6314 13.5177 11.5754 13.4617 11.5041 13.4365L4.88046 11.0958C3.27336 10.5279 3.34387 8.23137 4.98278 7.76311L19.24 3.68959Z"
+                                          fill="#B6B6B6"/>
                                 </svg>
-                                </div>
-                                <div class="mb-3 position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Drop Off">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M19.24 3.68959C20.5601 3.31243 21.7805 4.53279 21.4035 5.85288L17.3312 20.1104C16.8631 21.7493 14.5668 21.8201 13.9986 20.2132L11.6565 13.5889C11.6314 13.5177 11.5754 13.4617 11.5041 13.4365L4.88046 11.0958C3.27336 10.5279 3.34387 8.23137 4.98278 7.76311L19.24 3.68959Z" fill="#B6B6B6"/>
+                            </div>
+                            <div class="mb-3 position-relative">
+                                <input type="datetime-local" id="event-datetime" name="event-datetime"
+                                       class="form-control">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M9.96054 0.367188C4.64054 0.367188 0.32782 4.6799 0.32782 9.99991C0.32782 15.3199 4.64054 19.6326 9.96054 19.6326C15.2806 19.6326 19.5933 15.3199 19.5933 9.99991C19.5933 4.6799 15.2806 0.367188 9.96054 0.367188ZM10.8566 6.41564C10.8566 5.92076 10.4554 5.51957 9.96054 5.51957C9.46564 5.51957 9.06447 5.92076 9.06447 6.41564V9.99991C9.06447 10.2375 9.15892 10.4655 9.32693 10.6335L11.1191 12.4257C11.469 12.7756 12.0364 12.7756 12.3863 12.4257C12.7362 12.0757 12.7362 11.5083 12.3863 11.1584L10.8566 9.62876V6.41564Z"
+                                          fill="#B6B6B6"/>
                                 </svg>
-                                </div>
-                                <div class="mb-3 position-relative">
-                                <input type="datetime-local" id="event-datetime" name="event-datetime" class="form-control">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.96054 0.367188C4.64054 0.367188 0.32782 4.6799 0.32782 9.99991C0.32782 15.3199 4.64054 19.6326 9.96054 19.6326C15.2806 19.6326 19.5933 15.3199 19.5933 9.99991C19.5933 4.6799 15.2806 0.367188 9.96054 0.367188ZM10.8566 6.41564C10.8566 5.92076 10.4554 5.51957 9.96054 5.51957C9.46564 5.51957 9.06447 5.92076 9.06447 6.41564V9.99991C9.06447 10.2375 9.15892 10.4655 9.32693 10.6335L11.1191 12.4257C11.469 12.7756 12.0364 12.7756 12.3863 12.4257C12.7362 12.0757 12.7362 11.5083 12.3863 11.1584L10.8566 9.62876V6.41564Z" fill="#B6B6B6"/>
+                            </div>
+                            <div class="mb-3 position-relative">
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                       placeholder="Enter Mobile Number">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="23" viewBox="0 0 15 23"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.6864 0.848221C10.9556 0.749961 10.0298 0.749981 8.89696 0.750001H5.78956C4.65673 0.749981 3.731 0.749961 3.00015 0.848221C2.2362 0.950931 1.57386 1.17321 1.04517 1.70191C0.516472 2.2306 0.294192 2.89294 0.191482 3.65689C0.0932222 4.38774 0.0932423 5.31347 0.0932623 6.44629V16.5537C0.0932423 17.6865 0.0932222 18.6123 0.191482 19.3431C0.294192 20.1071 0.516472 20.7694 1.04517 21.2981C1.57386 21.8268 2.2362 22.0491 3.00015 22.1518C3.731 22.25 4.65671 22.25 5.78956 22.25H8.89696C10.0298 22.25 10.9556 22.25 11.6864 22.1518C12.4504 22.0491 13.1127 21.8268 13.6414 21.2981C14.1701 20.7694 14.3924 20.1071 14.4951 19.3431C14.5933 18.6123 14.5933 17.6865 14.5933 16.5537V6.44632C14.5933 5.31348 14.5933 4.38775 14.4951 3.65689C14.3924 2.89294 14.1701 2.2306 13.6414 1.70191C13.1127 1.17321 12.4504 0.950931 11.6864 0.848221ZM7.34326 18C6.79096 18 6.34326 18.4477 6.34326 19C6.34326 19.5523 6.79096 20 7.34326 20H7.35326C7.90556 20 8.35326 19.5523 8.35326 19C8.35326 18.4477 7.90556 18 7.35326 18H7.34326Z"
+                                          fill="#B6B6B6"/>
                                 </svg>
-                                </div>
-                                <div class="mb-3 position-relative">
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter Mobile Number">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="23" viewBox="0 0 15 23" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.6864 0.848221C10.9556 0.749961 10.0298 0.749981 8.89696 0.750001H5.78956C4.65673 0.749981 3.731 0.749961 3.00015 0.848221C2.2362 0.950931 1.57386 1.17321 1.04517 1.70191C0.516472 2.2306 0.294192 2.89294 0.191482 3.65689C0.0932222 4.38774 0.0932423 5.31347 0.0932623 6.44629V16.5537C0.0932423 17.6865 0.0932222 18.6123 0.191482 19.3431C0.294192 20.1071 0.516472 20.7694 1.04517 21.2981C1.57386 21.8268 2.2362 22.0491 3.00015 22.1518C3.731 22.25 4.65671 22.25 5.78956 22.25H8.89696C10.0298 22.25 10.9556 22.25 11.6864 22.1518C12.4504 22.0491 13.1127 21.8268 13.6414 21.2981C14.1701 20.7694 14.3924 20.1071 14.4951 19.3431C14.5933 18.6123 14.5933 17.6865 14.5933 16.5537V6.44632C14.5933 5.31348 14.5933 4.38775 14.4951 3.65689C14.3924 2.89294 14.1701 2.2306 13.6414 1.70191C13.1127 1.17321 12.4504 0.950931 11.6864 0.848221ZM7.34326 18C6.79096 18 6.34326 18.4477 6.34326 19C6.34326 19.5523 6.79096 20 7.34326 20H7.35326C7.90556 20 8.35326 19.5523 8.35326 19C8.35326 18.4477 7.90556 18 7.35326 18H7.34326Z" fill="#B6B6B6"/>
+                            </div>
+                            <div class="w-100">
+                                <a href="#" class="btn text-capitalize fw-bold m-0 w-100">
+                                    Submit Your Book
+                                </a>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel"
+                             aria-labelledby="pills-profile-tab">
+                            <div class="mb-3  position-relative">
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                       placeholder="Pickup Location">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M7.5462 17.6971C7.71363 18.2234 7.42272 18.7858 6.89642 18.9532C6.39517 19.1127 6.02815 19.3407 5.80452 19.547C5.73433 19.6117 5.68668 19.6657 5.6545 19.7074C5.68466 19.732 5.72403 19.7613 5.77503 19.7952C6.05709 19.9824 6.5312 20.1899 7.20674 20.3796C8.54393 20.755 10.4487 21.0003 12.5933 21.0003C14.7379 21.0003 16.6426 20.755 17.9798 20.3796C18.6554 20.1899 19.1295 19.9824 19.4115 19.7952C19.4625 19.7613 19.5019 19.732 19.5321 19.7074C19.4999 19.6657 19.4522 19.6117 19.382 19.547C19.1584 19.3407 18.7914 19.1127 18.2901 18.9532C17.7638 18.7858 17.4729 18.2234 17.6404 17.6971C17.8078 17.1708 18.3702 16.8799 18.8965 17.0473C19.6399 17.2839 20.2729 17.6478 20.7381 18.0769C21.1684 18.4738 21.5933 19.0608 21.5933 19.7539C21.5933 20.5798 21.0069 21.1367 20.5177 21.4614C19.9901 21.8117 19.2927 22.0883 18.5205 22.3051C16.9622 22.7426 14.867 23.0003 12.5933 23.0003C10.3196 23.0003 8.22431 22.7426 6.66607 22.3051C5.89389 22.0883 5.19643 21.8117 4.66885 21.4614C4.1797 21.1367 3.59326 20.5798 3.59326 19.7539C3.59326 19.0608 4.0182 18.4738 4.44845 18.0769C4.91364 17.6478 5.54663 17.2839 6.2901 17.0473C6.81639 16.8799 7.37877 17.1708 7.5462 17.6971Z"
+                                          fill="black" fill-opacity="0.24"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M12.5933 1.25C8.29328 1.25 4.84326 4.82939 4.84326 9.2C4.84326 11.8715 6.26901 14.0049 7.80207 15.5291C9.33923 17.0573 11.0612 18.0522 11.8389 18.461C12.3143 18.7109 12.8723 18.7109 13.3477 18.461C14.1254 18.0522 15.8473 17.0573 17.3845 15.5291C18.9176 14.0049 20.3433 11.8715 20.3433 9.2C20.3433 4.82939 16.8933 1.25 12.5933 1.25ZM12.5933 6C10.9364 6 9.59326 7.34315 9.59326 9C9.59326 10.6569 10.9364 12 12.5933 12C14.2502 12 15.5933 10.6569 15.5933 9C15.5933 7.34315 14.2502 6 12.5933 6Z"
+                                          fill="black" fill-opacity="0.24"/>
                                 </svg>
-                                </div>
-                                <div class="w-100">
-                                    <a href="#" class="btn text-capitalize fw-bold m-0 w-100">
-                                        Submit Your Book
-                                    </a>
-                                </div>
+                            </div>
+                            <div class="mb-3 position-relative">
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                       placeholder="Drop Off">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M19.24 3.68959C20.5601 3.31243 21.7805 4.53279 21.4035 5.85288L17.3312 20.1104C16.8631 21.7493 14.5668 21.8201 13.9986 20.2132L11.6565 13.5889C11.6314 13.5177 11.5754 13.4617 11.5041 13.4365L4.88046 11.0958C3.27336 10.5279 3.34387 8.23137 4.98278 7.76311L19.24 3.68959Z"
+                                          fill="#B6B6B6"/>
+                                </svg>
+                            </div>
+                            <div class="mb-3 position-relative">
+                                <input type="datetime-local" id="event-datetime" name="event-datetime"
+                                       class="form-control">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M9.96054 0.367188C4.64054 0.367188 0.32782 4.6799 0.32782 9.99991C0.32782 15.3199 4.64054 19.6326 9.96054 19.6326C15.2806 19.6326 19.5933 15.3199 19.5933 9.99991C19.5933 4.6799 15.2806 0.367188 9.96054 0.367188ZM10.8566 6.41564C10.8566 5.92076 10.4554 5.51957 9.96054 5.51957C9.46564 5.51957 9.06447 5.92076 9.06447 6.41564V9.99991C9.06447 10.2375 9.15892 10.4655 9.32693 10.6335L11.1191 12.4257C11.469 12.7756 12.0364 12.7756 12.3863 12.4257C12.7362 12.0757 12.7362 11.5083 12.3863 11.1584L10.8566 9.62876V6.41564Z"
+                                          fill="#B6B6B6"/>
+                                </svg>
+                            </div>
+                            <div class="mb-3 position-relative">
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                       placeholder="Enter Mobile Number">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="23" viewBox="0 0 15 23"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.6864 0.848221C10.9556 0.749961 10.0298 0.749981 8.89696 0.750001H5.78956C4.65673 0.749981 3.731 0.749961 3.00015 0.848221C2.2362 0.950931 1.57386 1.17321 1.04517 1.70191C0.516472 2.2306 0.294192 2.89294 0.191482 3.65689C0.0932222 4.38774 0.0932423 5.31347 0.0932623 6.44629V16.5537C0.0932423 17.6865 0.0932222 18.6123 0.191482 19.3431C0.294192 20.1071 0.516472 20.7694 1.04517 21.2981C1.57386 21.8268 2.2362 22.0491 3.00015 22.1518C3.731 22.25 4.65671 22.25 5.78956 22.25H8.89696C10.0298 22.25 10.9556 22.25 11.6864 22.1518C12.4504 22.0491 13.1127 21.8268 13.6414 21.2981C14.1701 20.7694 14.3924 20.1071 14.4951 19.3431C14.5933 18.6123 14.5933 17.6865 14.5933 16.5537V6.44632C14.5933 5.31348 14.5933 4.38775 14.4951 3.65689C14.3924 2.89294 14.1701 2.2306 13.6414 1.70191C13.1127 1.17321 12.4504 0.950931 11.6864 0.848221ZM7.34326 18C6.79096 18 6.34326 18.4477 6.34326 19C6.34326 19.5523 6.79096 20 7.34326 20H7.35326C7.90556 20 8.35326 19.5523 8.35326 19C8.35326 18.4477 7.90556 18 7.35326 18H7.34326Z"
+                                          fill="#B6B6B6"/>
+                                </svg>
+                            </div>
+                            <div class="w-100">
+                                <a href="#" class="btn text-capitalize fw-bold m-0 w-100">
+                                    Submit Your Book
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </div>
 </div>
 
 <div class="book_details p0">
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <figure>
-                <img src="asset/image/return_fare.png" alt="">
-            </figure>
-            <div class="book_details_price">
-                <h6 class="text-white">Return Fare</h6>
-                <span class="w-100 text-white">One-Way Savings</span>
-            </div>
-        </div>
+    <div class="container">
+        <div class="row">
             <div class="col-md-4">
-            <figure>
-                <img src="asset/image/lowest_prices.png" alt="">
-            </figure>
-            <div class="book_details_price">
-                <h6 class="text-white">Lowest Prices</h6>
-                <span class="w-100 text-white">Best Rates</span>
+                <figure>
+                    <img src="asset/image/return_fare.png" alt="">
+                </figure>
+                <div class="book_details_price">
+                    <h6 class="text-white">Return Fare</h6>
+                    <span class="w-100 text-white">One-Way Savings</span>
+                </div>
             </div>
-        </div>
             <div class="col-md-4">
-            <figure>
-                <img src="asset/image/hidden_charges.png" alt="">
-            </figure>
-            <div class="book_details_price">
-                <h6 class="text-white">Hidden Charges</h6>
-                <span class="w-100 text-white">Transparent Pricing</span>
+                <figure>
+                    <img src="asset/image/lowest_prices.png" alt="">
+                </figure>
+                <div class="book_details_price">
+                    <h6 class="text-white">Lowest Prices</h6>
+                    <span class="w-100 text-white">Best Rates</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <figure>
+                    <img src="asset/image/hidden_charges.png" alt="">
+                </figure>
+                <div class="book_details_price">
+                    <h6 class="text-white">Hidden Charges</h6>
+                    <span class="w-100 text-white">Transparent Pricing</span>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <div class="cab_book_about">
-<div class="container pt-5 mt-4">
-    <div class="row">
-        <div class="col-md-6 text-center">
-            <img src="asset/image/cab_book_about.png" alt="">
-        </div>
-        <div class="col-md-6 mt-4">
-            <h2>
-                RJ Travels – Book Your Cab with Ease
-            </h2>
-            <p class="py-5 para_details">We aim to exceed your expectations by delivering professional, on-time, and reliable cab services across Gujarat and India.</p>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <figure><img src="asset/image/product.png" alt=""></figure>
-                    <div class="cab_book_about_product">
-                        <h6 class="">Product Quality</h6>
-                        <p class="w-100 mt-2">Reliable cabs & well-maintained vehicles</p>
-                    </div>
-                </div>
-                    <div class="col-md-6 mb-4">
-                    <figure><img src="asset/image/innovative.png" alt=""></figure>
-                    <div class="cab_book_about_product">
-                        <h6 class="">Innovative Solutions</h6>
-                        <p class="w-100 mt-2">Easy booking via call or WhatsApp</p>
-                    </div>
-                </div>
-                    <div class="col-md-6 mb-4">
-                    <figure><img src="asset/image/customer_one.png" alt=""></figure>
-                    <div class="cab_book_about_product">
-                        <h6 class="">Customer Happiness</h6>
-                        <p class="w-100 mt-2">Thousands of satisfied travelers</p>
-                    </div>
-                </div>
-                    <div class="col-md-6 mb-4">
-                    <figure><img src="asset/image/customer_two.png" alt=""></figure>
-                    <div class="cab_book_about_product">
-                        <h6 class="">Affordable Travel</h6>
-                        <p class="w-100 mt-2">Transparent pricing with no hidden fees</p>
-                    </div>
-                </div>
+    <div class="container pt-5 mt-4">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img src="asset/image/cab_book_about.png" alt="">
             </div>
-            <ul>
-                <li class="mb-3 d-inline-block me-3">
-                   <a href="#" class="btn fw-bold w-auto m-0">
-                        Book by call
-                    </a>
-                </li>
-                <li class="mb-3 d-inline-block">
-                    <a href="#" class="btn fw-bold w-auto m-0 bg-white text-black book_by_whatsapp">Book by Whatsapp</a>
-                </li>
-            </ul>
+            <div class="col-md-6 mt-4">
+                <h2>
+                    RJ Travels – Book Your Cab with Ease
+                </h2>
+                <p class="py-5 para_details">We aim to exceed your expectations by delivering professional, on-time, and
+                    reliable cab services across Gujarat and India.</p>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <figure><img src="asset/image/product.png" alt=""></figure>
+                        <div class="cab_book_about_product">
+                            <h6 class="">Product Quality</h6>
+                            <p class="w-100 mt-2">Reliable cabs & well-maintained vehicles</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <figure><img src="asset/image/innovative.png" alt=""></figure>
+                        <div class="cab_book_about_product">
+                            <h6 class="">Innovative Solutions</h6>
+                            <p class="w-100 mt-2">Easy booking via call or WhatsApp</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <figure><img src="asset/image/customer_one.png" alt=""></figure>
+                        <div class="cab_book_about_product">
+                            <h6 class="">Customer Happiness</h6>
+                            <p class="w-100 mt-2">Thousands of satisfied travelers</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <figure><img src="asset/image/customer_two.png" alt=""></figure>
+                        <div class="cab_book_about_product">
+                            <h6 class="">Affordable Travel</h6>
+                            <p class="w-100 mt-2">Transparent pricing with no hidden fees</p>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li class="mb-3 d-inline-block me-3">
+                        <a href="tel:+91 70461 62162" class="btn fw-bold w-auto m-0">
+                            Book by call
+                        </a>
+                    </li>
+                    <li class="mb-3 d-inline-block">
+                        <a href="https://wa.me/917046162162" class="btn fw-bold w-auto m-0 bg-white text-black book_by_whatsapp">Book by
+                            Whatsapp</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 </div>
 
 <div class="our_routes mt-4">
-<div class="container pt-5 mt-4">
-    <h2 class="text-center mb-5">Our Routes</h2>
-    <div class="row">
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
-            <div class="our_routes_box">
-                <ul class="d-flex mb-4">
-                    <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
-                    <li class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                    <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z" fill="#FE8F2B"/>
-                    </svg></li>
-                    <li class="m-0"><h6 class="cl1">Vadodara</h6></li>
-                    <li class="me-0"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                    <path d="M13.215 21.6187C12.875 21.7387 12.315 21.7387 11.975 21.6187C9.07497 20.6287 2.59497 16.4987 2.59497 9.49869C2.59497 6.40869 5.08497 3.90869 8.15497 3.90869C9.97497 3.90869 11.585 4.78869 12.595 6.14869C13.605 4.78869 15.225 3.90869 17.035 3.90869C20.105 3.90869 22.595 6.40869 22.595 9.49869C22.595 16.4987 16.115 20.6287 13.215 21.6187Z" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg></li>
-                </ul>
-                <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹2,999</span></h6>
-                <img src="asset/image/car.png" alt="" class="w-100">
-                <ul class="d-flex mt-3">
-                    <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹2,999</span></h6></li>
-                    <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹5,999/</span></h6></li>
-                </ul>
-                <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
-                <a href="#" class="btn fw-bold w-100 m-0 product_list_btn"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z" fill="white"/>
-                </svg> Book a Cab</a>
+    <div class="container pt-5 mt-4">
+        <h2 class="text-center mb-5">Our Routes</h2>
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
+                <div class="our_routes_box">
+                    <ul class="d-flex mb-4">
+                        <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
+                        <li class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                 fill="none">
+                                <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="m-0"><h6 class="cl1">Vadodara</h6></li>
+                        <li class="me-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                 fill="none">
+                                <path d="M13.215 21.6187C12.875 21.7387 12.315 21.7387 11.975 21.6187C9.07497 20.6287 2.59497 16.4987 2.59497 9.49869C2.59497 6.40869 5.08497 3.90869 8.15497 3.90869C9.97497 3.90869 11.585 4.78869 12.595 6.14869C13.605 4.78869 15.225 3.90869 17.035 3.90869C20.105 3.90869 22.595 6.40869 22.595 9.49869C22.595 16.4987 16.115 20.6287 13.215 21.6187Z"
+                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </li>
+                    </ul>
+                    <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹2,999</span></h6>
+                    <img src="asset/image/car.png" alt="" class="w-100">
+                    <ul class="d-flex mt-3">
+                        <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹2,999</span></h6>
+                        </li>
+                        <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹5,999/</span></h6>
+                        </li>
+                    </ul>
+                    <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
+                    <a href="#book-cab" class="btn fw-bold w-100 m-0 product_list_btn">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z"
+                                  fill="white"/>
+                        </svg>
+                        Book a Cab</a>
+                </div>
             </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
-            <div class="our_routes_box">
-                <ul class="d-flex mb-4">
-                    <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
-                    <li class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                    <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z" fill="#FE8F2B"/>
-                    </svg></li>
-                    <li class="m-0"><h6 class="cl1">Surat</h6></li>
-                    <li class="me-0"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                    <path d="M13.215 21.6187C12.875 21.7387 12.315 21.7387 11.975 21.6187C9.07497 20.6287 2.59497 16.4987 2.59497 9.49869C2.59497 6.40869 5.08497 3.90869 8.15497 3.90869C9.97497 3.90869 11.585 4.78869 12.595 6.14869C13.605 4.78869 15.225 3.90869 17.035 3.90869C20.105 3.90869 22.595 6.40869 22.595 9.49869C22.595 16.4987 16.115 20.6287 13.215 21.6187Z" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg></li>
-                </ul>
-                <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹3,499</span></h6>
-                <img src="asset/image/car.png" alt="" class="w-100">
-                <ul class="d-flex mt-3">
-                    <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹3,499</span></h6></li>
-                    <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹6,499/</span></h6></li>
-                </ul>
-                <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
-                <a href="#" class="btn fw-bold w-100 m-0 product_list_btn"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z" fill="white"/>
-                </svg> Book a Cab</a>
+            <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
+                <div class="our_routes_box">
+                    <ul class="d-flex mb-4">
+                        <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
+                        <li class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                 fill="none">
+                                <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="m-0"><h6 class="cl1">Surat</h6></li>
+                        <li class="me-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                 fill="none">
+                                <path d="M13.215 21.6187C12.875 21.7387 12.315 21.7387 11.975 21.6187C9.07497 20.6287 2.59497 16.4987 2.59497 9.49869C2.59497 6.40869 5.08497 3.90869 8.15497 3.90869C9.97497 3.90869 11.585 4.78869 12.595 6.14869C13.605 4.78869 15.225 3.90869 17.035 3.90869C20.105 3.90869 22.595 6.40869 22.595 9.49869C22.595 16.4987 16.115 20.6287 13.215 21.6187Z"
+                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </li>
+                    </ul>
+                    <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹3,499</span></h6>
+                    <img src="asset/image/car.png" alt="" class="w-100">
+                    <ul class="d-flex mt-3">
+                        <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹3,499</span></h6>
+                        </li>
+                        <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹6,499/</span></h6>
+                        </li>
+                    </ul>
+                    <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
+                    <a href="#book-cab" class="btn fw-bold w-100 m-0 product_list_btn">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z"
+                                  fill="white"/>
+                        </svg>
+                        Book a Cab</a>
+                </div>
             </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
-            <div class="our_routes_box">
-                <ul class="d-flex mb-4">
-                    <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
-                    <li class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                    <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z" fill="#FE8F2B"/>
-                    </svg></li>
-                    <li class="m-0"><h6 class="cl1">Rajkot</h6></li>
-                    <li class="me-0"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                    <path d="M17.035 3.90869C15.225 3.90869 13.605 4.78869 12.595 6.13869C11.585 4.78869 9.96497 3.90869 8.15497 3.90869C5.08497 3.90869 2.59497 6.40869 2.59497 9.49869C2.59497 10.6887 2.78497 11.7887 3.11497 12.8087C4.69497 17.8087 9.56497 20.7987 11.975 21.6187C12.315 21.7387 12.875 21.7387 13.215 21.6187C15.625 20.7987 20.495 17.8087 22.075 12.8087C22.405 11.7887 22.595 10.6887 22.595 9.49869C22.595 6.40869 20.105 3.90869 17.035 3.90869Z" fill="#ED3F3F"/>
-                    </svg></li>
-                </ul>
-                <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹3,999</span></h6>
-                <img src="asset/image/car.png" alt="" class="w-100">
-                <ul class="d-flex mt-3">
-                    <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹3,999</span></h6></li>
-                    <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹6,999/</span></h6></li>
-                </ul>
-                <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
-                <a href="#" class="btn fw-bold w-100 m-0 product_list_btn"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z" fill="white"/>
-                </svg> Book a Cab</a>
+            <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
+                <div class="our_routes_box">
+                    <ul class="d-flex mb-4">
+                        <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
+                        <li class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                 fill="none">
+                                <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="m-0"><h6 class="cl1">Rajkot</h6></li>
+                        <li class="me-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                 fill="none">
+                                <path d="M17.035 3.90869C15.225 3.90869 13.605 4.78869 12.595 6.13869C11.585 4.78869 9.96497 3.90869 8.15497 3.90869C5.08497 3.90869 2.59497 6.40869 2.59497 9.49869C2.59497 10.6887 2.78497 11.7887 3.11497 12.8087C4.69497 17.8087 9.56497 20.7987 11.975 21.6187C12.315 21.7387 12.875 21.7387 13.215 21.6187C15.625 20.7987 20.495 17.8087 22.075 12.8087C22.405 11.7887 22.595 10.6887 22.595 9.49869C22.595 6.40869 20.105 3.90869 17.035 3.90869Z"
+                                      fill="#ED3F3F"/>
+                            </svg>
+                        </li>
+                    </ul>
+                    <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹3,999</span></h6>
+                    <img src="asset/image/car.png" alt="" class="w-100">
+                    <ul class="d-flex mt-3">
+                        <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹3,999</span></h6>
+                        </li>
+                        <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹6,999/</span></h6>
+                        </li>
+                    </ul>
+                    <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
+                    <a href="#book-cab" class="btn fw-bold w-100 m-0 product_list_btn">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z"
+                                  fill="white"/>
+                        </svg>
+                        Book a Cab</a>
+                </div>
             </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
-            <div class="our_routes_box">
-                <ul class="d-flex mb-4">
-                    <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
-                    <li class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                    <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z" fill="#FE8F2B"/>
-                    </svg></li>
-                    <li class="m-0"><h6 class="cl1">Udaipur</h6></li>
-                    <li class="me-0"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                    <path d="M17.035 3.90869C15.225 3.90869 13.605 4.78869 12.595 6.13869C11.585 4.78869 9.96497 3.90869 8.15497 3.90869C5.08497 3.90869 2.59497 6.40869 2.59497 9.49869C2.59497 10.6887 2.78497 11.7887 3.11497 12.8087C4.69497 17.8087 9.56497 20.7987 11.975 21.6187C12.315 21.7387 12.875 21.7387 13.215 21.6187C15.625 20.7987 20.495 17.8087 22.075 12.8087C22.405 11.7887 22.595 10.6887 22.595 9.49869C22.595 6.40869 20.105 3.90869 17.035 3.90869Z" fill="#ED3F3F"/>
-                    </svg></li>
-                </ul>
-                <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹4,299</span></h6>
-                <img src="asset/image/car.png" alt="" class="w-100">
-                <ul class="d-flex mt-3">
-                    <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹4,299</span></h6></li>
-                    <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹7,499/</span></h6></li>
-                </ul>
-                <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
-                <a href="#" class="btn fw-bold w-100 m-0 product_list_btn"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z" fill="white"/>
-                </svg> Book a Cab</a>
+            <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
+                <div class="our_routes_box">
+                    <ul class="d-flex mb-4">
+                        <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
+                        <li class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                 fill="none">
+                                <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="m-0"><h6 class="cl1">Udaipur</h6></li>
+                        <li class="me-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                 fill="none">
+                                <path d="M17.035 3.90869C15.225 3.90869 13.605 4.78869 12.595 6.13869C11.585 4.78869 9.96497 3.90869 8.15497 3.90869C5.08497 3.90869 2.59497 6.40869 2.59497 9.49869C2.59497 10.6887 2.78497 11.7887 3.11497 12.8087C4.69497 17.8087 9.56497 20.7987 11.975 21.6187C12.315 21.7387 12.875 21.7387 13.215 21.6187C15.625 20.7987 20.495 17.8087 22.075 12.8087C22.405 11.7887 22.595 10.6887 22.595 9.49869C22.595 6.40869 20.105 3.90869 17.035 3.90869Z"
+                                      fill="#ED3F3F"/>
+                            </svg>
+                        </li>
+                    </ul>
+                    <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹4,299</span></h6>
+                    <img src="asset/image/car.png" alt="" class="w-100">
+                    <ul class="d-flex mt-3">
+                        <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹4,299</span></h6>
+                        </li>
+                        <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹7,499/</span></h6>
+                        </li>
+                    </ul>
+                    <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
+                    <a href="#book-cab" class="btn fw-bold w-100 m-0 product_list_btn">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z"
+                                  fill="white"/>
+                        </svg>
+                        Book a Cab</a>
+                </div>
             </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
-            <div class="our_routes_box">
-                <ul class="d-flex mb-4">
-                    <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
-                    <li class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                    <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z" fill="#FE8F2B"/>
-                    </svg></li>
-                    <li class="m-0"><h6 class="cl1">Mount Abu</h6></li>
-                    <li class="me-0"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                    <path d="M13.215 21.6187C12.875 21.7387 12.315 21.7387 11.975 21.6187C9.07497 20.6287 2.59497 16.4987 2.59497 9.49869C2.59497 6.40869 5.08497 3.90869 8.15497 3.90869C9.97497 3.90869 11.585 4.78869 12.595 6.14869C13.605 4.78869 15.225 3.90869 17.035 3.90869C20.105 3.90869 22.595 6.40869 22.595 9.49869C22.595 16.4987 16.115 20.6287 13.215 21.6187Z" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg></li>
-                </ul>
-                <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹4,799</span></h6>
-                <img src="asset/image/car.png" alt="" class="w-100">
-                <ul class="d-flex mt-3">
-                    <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹4,799</span></h6></li>
-                    <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹8,199/</span></h6></li>
-                </ul>
-                <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
-                <a href="#" class="btn fw-bold w-100 m-0 product_list_btn"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z" fill="white"/>
-                </svg> Book a Cab</a>
+            <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
+                <div class="our_routes_box">
+                    <ul class="d-flex mb-4">
+                        <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
+                        <li class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                 fill="none">
+                                <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="m-0"><h6 class="cl1">Mount Abu</h6></li>
+                        <li class="me-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                 fill="none">
+                                <path d="M13.215 21.6187C12.875 21.7387 12.315 21.7387 11.975 21.6187C9.07497 20.6287 2.59497 16.4987 2.59497 9.49869C2.59497 6.40869 5.08497 3.90869 8.15497 3.90869C9.97497 3.90869 11.585 4.78869 12.595 6.14869C13.605 4.78869 15.225 3.90869 17.035 3.90869C20.105 3.90869 22.595 6.40869 22.595 9.49869C22.595 16.4987 16.115 20.6287 13.215 21.6187Z"
+                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </li>
+                    </ul>
+                    <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹4,799</span></h6>
+                    <img src="asset/image/car.png" alt="" class="w-100">
+                    <ul class="d-flex mt-3">
+                        <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹4,799</span></h6>
+                        </li>
+                        <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹8,199/</span></h6>
+                        </li>
+                    </ul>
+                    <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
+                    <a href="#book-cab" class="btn fw-bold w-100 m-0 product_list_btn">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z"
+                                  fill="white"/>
+                        </svg>
+                        Book a Cab</a>
+                </div>
             </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
-            <div class="our_routes_box">
-                <ul class="d-flex mb-4">
-                    <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
-                    <li class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                    <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z" fill="#FE8F2B"/>
-                    </svg></li>
-                    <li class="m-0"><h6 class="cl1">Mumbai</h6></li>
-                    <li class="me-0"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-                    <path d="M13.215 21.6187C12.875 21.7387 12.315 21.7387 11.975 21.6187C9.07497 20.6287 2.59497 16.4987 2.59497 9.49869C2.59497 6.40869 5.08497 3.90869 8.15497 3.90869C9.97497 3.90869 11.585 4.78869 12.595 6.14869C13.605 4.78869 15.225 3.90869 17.035 3.90869C20.105 3.90869 22.595 6.40869 22.595 9.49869C22.595 16.4987 16.115 20.6287 13.215 21.6187Z" stroke="#999999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg></li>
-                </ul>
-                <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹6,999</span></h6>
-                <img src="asset/image/car.png" alt="" class="w-100">
-                <ul class="d-flex mt-3">
-                    <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹6,999</span></h6></li>
-                    <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹11,999/</span></h6></li>
-                </ul>
-                <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
-                <a href="#" class="btn fw-bold w-100 m-0 product_list_btn"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z" fill="white"/>
-                </svg> Book a Cab</a>
+            <div class="col-sm-6 col-md-6 col-lg-4 mb-5">
+                <div class="our_routes_box">
+                    <ul class="d-flex mb-4">
+                        <li class="m-0"><h6 class="cl1">Ahmadabad</h6></li>
+                        <li class="mx-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                                 fill="none">
+                                <path d="M13.9351 10.8087C14.4036 10.8087 14.8693 10.8061 15.2252 10.8575C15.5289 10.9014 16.1347 11.035 16.439 11.6192L16.4957 11.7413L16.5396 11.8673C16.7258 12.4898 16.3972 13.0074 16.2164 13.253C16.0023 13.5437 15.6735 13.8756 15.3414 14.2149L13.0972 16.5079C12.7111 16.9024 12.0779 16.9093 11.6832 16.5235C11.2886 16.1373 11.2815 15.5041 11.6675 15.1095L13.9127 12.8165C13.9152 12.8139 13.9179 12.8113 13.9205 12.8087H1.59332C1.04113 12.8087 0.593477 12.3608 0.593325 11.8087C0.593325 11.2564 1.04104 10.8087 1.59332 10.8087H13.9351ZM4.08942 1.10946C4.47567 0.714881 5.1088 0.707753 5.50348 1.09384C5.89781 1.4801 5.90507 2.11329 5.51911 2.5079L3.27399 4.80087C3.27142 4.80349 3.26873 4.80607 3.26618 4.80868H15.5933C16.1455 4.80879 16.5933 5.25646 16.5933 5.80868C16.5932 6.36077 16.1454 6.80857 15.5933 6.80868H3.25153C2.78311 6.80868 2.31737 6.81123 1.96149 6.75985C1.63778 6.71306 0.970324 6.56427 0.690981 5.87606C0.416104 5.19786 0.777291 4.62644 0.970278 4.36434C1.18438 4.07367 1.51311 3.74175 1.84528 3.40243L4.08942 1.10946Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="m-0"><h6 class="cl1">Mumbai</h6></li>
+                        <li class="me-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                                 fill="none">
+                                <path d="M13.215 21.6187C12.875 21.7387 12.315 21.7387 11.975 21.6187C9.07497 20.6287 2.59497 16.4987 2.59497 9.49869C2.59497 6.40869 5.08497 3.90869 8.15497 3.90869C9.97497 3.90869 11.585 4.78869 12.595 6.14869C13.605 4.78869 15.225 3.90869 17.035 3.90869C20.105 3.90869 22.595 6.40869 22.595 9.49869C22.595 16.4987 16.115 20.6287 13.215 21.6187Z"
+                                      stroke="#999999" stroke-width="1.5" stroke-linecap="round"
+                                      stroke-linejoin="round"/>
+                            </svg>
+                        </li>
+                    </ul>
+                    <h6 class="text-center cl2 mb-3">From<span class="ms-3">₹6,999</span></h6>
+                    <img src="asset/image/car.png" alt="" class="w-100">
+                    <ul class="d-flex mt-3">
+                        <li class="ms-0"><h6 class="text-center cl2">Sedan:<span class="ms-1 fs-6">₹6,999</span></h6>
+                        </li>
+                        <li class="me-0"><h6 class="text-center cl2">SUV:<span class="ms-1 cl3 fs-6">₹11,999/</span>
+                        </h6></li>
+                    </ul>
+                    <p class="cl2 mt-4 mb-3 text-center">One-Way Trip</p>
+                    <a href="#book-cab" class="btn fw-bold w-100 m-0 product_list_btn">
+                        <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
+                             fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z"
+                                  fill="white"/>
+                        </svg>
+                        Book a Cab</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 
 <div class="cab_book_about taxi_services">
-<div class="container pt-5 mt-4">
-    <div class="row">
-        <div class="col-md-6">
-            <img src="asset/image/taxi_services.png" alt="">
-        </div>
-        <div class="col-md-6 mt-4">
-            <h2>
-                RJ Travels – Reliable Taxi Services from Ahmedabad
-            </h2>
-            <p class="py-5 para_details">Our mission is to deliver dependable, on-time, and comfortable cab services that exceed customer expectations—whether for daily travel or long-distance journeys.</p>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <figure><img src="asset/image/taxi_services_icon.png" alt=""></figure>
-                    <div class="cab_book_about_product">
-                        <h5 class="">Outstation Cabs</h5>
-                    </div>
-                </div>
-                    <div class="col-md-6 mb-4">
-                    <figure><img src="asset/image/taxi_services_icon.png" alt=""></figure>
-                    <div class="cab_book_about_product">
-                        <h5 class="">One-Way Cab</h5>
-                    </div>
-                </div>
-                    <div class="col-md-6 mb-4">
-                    <figure><img src="asset/image/taxi_services_icon.png" alt=""></figure>
-                    <div class="cab_book_about_product">
-                        <h5 class="">Hourly Car Rentals</h5>
-                    </div>
-                </div>
-                    <div class="col-md-6 mb-4">
-                    <figure><img src="asset/image/taxi_services_icon.png" alt=""></figure>
-                    <div class="cab_book_about_product">
-                        <h5 class="">Airport Taxi</h5>
-                    </div>
-                </div>
+    <div class="container pt-5 mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="asset/image/taxi_services.png" alt="">
             </div>
-            <a href="#" class="btn text-capitalize fw-bold w-auto mt-4">
-                        Book by call
-            </a>
+            <div class="col-md-6 mt-4">
+                <h2>
+                    RJ Travels – Reliable Taxi Services from Ahmedabad
+                </h2>
+                <p class="py-5 para_details">Our mission is to deliver dependable, on-time, and comfortable cab services
+                    that exceed customer expectations—whether for daily travel or long-distance journeys.</p>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <figure><img src="asset/image/taxi_services_icon.png" alt=""></figure>
+                        <div class="cab_book_about_product">
+                            <h5 class="">Outstation Cabs</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <figure><img src="asset/image/taxi_services_icon.png" alt=""></figure>
+                        <div class="cab_book_about_product">
+                            <h5 class="">One-Way Cab</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <figure><img src="asset/image/taxi_services_icon.png" alt=""></figure>
+                        <div class="cab_book_about_product">
+                            <h5 class="">Hourly Car Rentals</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <figure><img src="asset/image/taxi_services_icon.png" alt=""></figure>
+                        <div class="cab_book_about_product">
+                            <h5 class="">Airport Taxi</h5>
+                        </div>
+                    </div>
+                </div>
+                <a href="tel:+91 70461 62162" class="btn text-capitalize fw-bold w-auto mt-4">
+                    Book by call
+                </a>
+            </div>
         </div>
     </div>
-</div>
 </div>
 
 <div class="blog">
     <div class="container pt-5 mt-5">
         <h2 class="text-center mb-5">Read Travels <br>
-        Blog</h2>
+            Blog</h2>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <img src="asset/image/blog_1.png" alt="">
                 <p class="py-4">On 19, Aug, 2022</p>
                 <h4>Ahmedabad Airport Taxi – Hassle-Free Pickup & Drop with RJ Travels</h4>
             </div>
-             <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4">
                 <img src="asset/image/blog_2.png" alt="">
                 <p class="py-4">On 19, Aug, 2022</p>
                 <h4>Best Places to Visit in Ahmedabad – A Complete Travel Guide</h4>
             </div>
-             <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4">
                 <img src="asset/image/blog_3.png" alt="">
                 <p class="py-4">On 19, Aug, 2022</p>
                 <h4>One-Way Cab from Ahmedabad – Save More on Your Intercity Travel</h4>
@@ -495,126 +654,169 @@
         <div class="row h_testiminoals_slider">
             <div class="col-md-4 mb-4">
                 <div class="client_testi_box p-4">
-                <ul class="d-flex align-items-end">
-                    <li class="ms-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62" fill="none">
-                        <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z" fill="#FE8F2B"/>
-                        <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z" fill="#FE8F2B"/>
-                        </svg>
-                    </li>
-                    <li class="me-0">
-                        <img src="asset/image/client_profile.png" alt="">
-                    </li>
-                </ul>
-                <p class="py-4">“Smooth and safe experience! Booked a one-way cab from Ahmedabad to Surat. The car was clean, the driver was polite, and the pricing was transparent.”
-<br><b>— Ravi Desai, Surat</b></p>
-            </div>
-            </div>
-               <div class="col-md-4 mb-4">
-                <div class="client_testi_box p-4">
-                <ul class="d-flex align-items-end">
-                    <li class="ms-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62" fill="none">
-                        <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z" fill="#FE8F2B"/>
-                        <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z" fill="#FE8F2B"/>
-                        </svg>
-                    </li>
-                    <li class="me-0">
-                        <img src="asset/image/client_profile.png" alt="">
-                    </li>
-                </ul>
-                <p class="py-4">“Best cab service in Gujarat. I travel often for work and RJ Travels has been my go-to for outstation trips. Easy to book, punctual, and very affordable.” <br><b>— Pooja Mehta, Gandhinagar</b></p>
-            </div>
-            </div>
-               <div class="col-md-4 mb-4">
-                <div class="client_testi_box p-4">
-                <ul class="d-flex align-items-end">
-                    <li class="ms-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62" fill="none">
-                        <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z" fill="#FE8F2B"/>
-                        <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z" fill="#FE8F2B"/>
-                        </svg>
-                    </li>
-                    <li class="me-0">
-                        <img src="asset/image/client_profile.png" alt="">
-                    </li>
-                </ul>
-                <p class="py-4">“Hassle-free airport pickup!” Reached Ahmedabad airport at 2 AM and was surprised to get a timely and professional pickup. Highly recommended. <br> <b>— Faizan Sheikh, Mumbai</b></p>
-            </div>
-            </div>
-               <div class="col-md-4 mb-4">
-                <div class="client_testi_box p-4">
-                <ul class="d-flex align-items-end">
-                    <li class="ms-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62" fill="none">
-                        <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z" fill="#FE8F2B"/>
-                        <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z" fill="#FE8F2B"/>
-                        </svg>
-                    </li>
-                    <li class="me-0">
-                        <img src="asset/image/client_profile.png" alt="">
-                    </li>
-                </ul>
-                <p class="py-4">“Clean cars, polite drivers.” I used RJ Travels for my parents’ outstation trip to Mount Abu. They were very happy with the comfort and safety provided. <br><b>— Raj Patel, Ahmedabad</b></p>
-            </div>
+                    <ul class="d-flex align-items-end">
+                        <li class="ms-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62"
+                                 fill="none">
+                                <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z"
+                                      fill="#FE8F2B"/>
+                                <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="me-0">
+                            <img src="asset/image/client_profile.png" alt="">
+                        </li>
+                    </ul>
+                    <p class="py-4">“Smooth and safe experience! Booked a one-way cab from Ahmedabad to Surat. The car
+                        was clean, the driver was polite, and the pricing was transparent.”
+                        <br><b>— Ravi Desai, Surat</b></p>
+                </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="client_testi_box p-4">
-                <ul class="d-flex align-items-end">
-                    <li class="ms-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62" fill="none">
-                        <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z" fill="#FE8F2B"/>
-                        <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z" fill="#FE8F2B"/>
-                        </svg>
-                    </li>
-                    <li class="me-0">
-                        <img src="asset/image/client_profile.png" alt="">
-                    </li>
-                </ul>
-                <p class="py-4">“Value for money.” Got a great rate for Ahmedabad to Vadodara. No hidden charges, and they even offered me water and AC at no extra cost. <br><b>— Nikita Trivedi, Vadodara</b></p>
+                    <ul class="d-flex align-items-end">
+                        <li class="ms-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62"
+                                 fill="none">
+                                <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z"
+                                      fill="#FE8F2B"/>
+                                <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="me-0">
+                            <img src="asset/image/client_profile.png" alt="">
+                        </li>
+                    </ul>
+                    <p class="py-4">“Best cab service in Gujarat. I travel often for work and RJ Travels has been my
+                        go-to for outstation trips. Easy to book, punctual, and very affordable.” <br><b>— Pooja Mehta,
+                            Gandhinagar</b></p>
+                </div>
             </div>
-            </div>
-                <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4">
                 <div class="client_testi_box p-4">
-                <ul class="d-flex align-items-end">
-                    <li class="ms-0">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62" fill="none">
-                        <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z" fill="#FE8F2B"/>
-                        <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z" fill="#FE8F2B"/>
-                        </svg>
-                    </li>
-                    <li class="me-0">
-                        <img src="asset/image/client_profile.png" alt="">
-                    </li>
-                </ul>
-                <p class="py-4">“Booked in 2 minutes!” Loved the WhatsApp booking feature. So easy and quick. The driver arrived exactly on time. Reliable and friendly service. <br><b>— Harshil Bhatt, Anand</b></p>
+                    <ul class="d-flex align-items-end">
+                        <li class="ms-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62"
+                                 fill="none">
+                                <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z"
+                                      fill="#FE8F2B"/>
+                                <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="me-0">
+                            <img src="asset/image/client_profile.png" alt="">
+                        </li>
+                    </ul>
+                    <p class="py-4">“Hassle-free airport pickup!” Reached Ahmedabad airport at 2 AM and was surprised to
+                        get a timely and professional pickup. Highly recommended. <br> <b>— Faizan Sheikh, Mumbai</b>
+                    </p>
+                </div>
             </div>
+            <div class="col-md-4 mb-4">
+                <div class="client_testi_box p-4">
+                    <ul class="d-flex align-items-end">
+                        <li class="ms-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62"
+                                 fill="none">
+                                <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z"
+                                      fill="#FE8F2B"/>
+                                <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="me-0">
+                            <img src="asset/image/client_profile.png" alt="">
+                        </li>
+                    </ul>
+                    <p class="py-4">“Clean cars, polite drivers.” I used RJ Travels for my parents’ outstation trip to
+                        Mount Abu. They were very happy with the comfort and safety provided. <br><b>— Raj Patel,
+                            Ahmedabad</b></p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="client_testi_box p-4">
+                    <ul class="d-flex align-items-end">
+                        <li class="ms-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62"
+                                 fill="none">
+                                <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z"
+                                      fill="#FE8F2B"/>
+                                <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="me-0">
+                            <img src="asset/image/client_profile.png" alt="">
+                        </li>
+                    </ul>
+                    <p class="py-4">“Value for money.” Got a great rate for Ahmedabad to Vadodara. No hidden charges,
+                        and they even offered me water and AC at no extra cost. <br><b>— Nikita Trivedi, Vadodara</b>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="client_testi_box p-4">
+                    <ul class="d-flex align-items-end">
+                        <li class="ms-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="87" height="62" viewBox="0 0 87 62"
+                                 fill="none">
+                                <path d="M86.0932 12.7441L83.3343 0.0581665C63.4689 0.968192 49.6984 9.23351 49.6984 33.5402V61.5184H84.4038V26.354H71.26C71.2602 18.5547 76.1537 13.9675 86.0932 12.7441Z"
+                                      fill="#FE8F2B"/>
+                                <path d="M36.4881 12.7445L33.7292 0.0585022C13.8638 0.968527 0.0932617 9.23408 0.0932617 33.5408V61.519H34.8001V26.3543H21.6481C21.6481 18.5551 26.5416 13.9678 36.4881 12.7445Z"
+                                      fill="#FE8F2B"/>
+                            </svg>
+                        </li>
+                        <li class="me-0">
+                            <img src="asset/image/client_profile.png" alt="">
+                        </li>
+                    </ul>
+                    <p class="py-4">“Booked in 2 minutes!” Loved the WhatsApp booking feature. So easy and quick. The
+                        driver arrived exactly on time. Reliable and friendly service. <br><b>— Harshil Bhatt, Anand</b>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="home_banner daley_to_book rounded-0 mt-5" style="background-image: url('asset/image/daley_to_book.png');background-repeat: no-repeat;background-size: cover;">
+<div class="home_banner daley_to_book rounded-0 mt-5"
+     style="background-image: url('asset/image/daley_to_book.png');background-repeat: no-repeat;background-size: cover;">
     <div class="container mt-4">
         <div class="row">
             <h2 class="">
-              Why Delay Your Ride? <br> Let’s Talk! 
+                Why Delay Your Ride? <br> Let’s Talk!
             </h2>
             <ul class="d-flex mt-4">
                 <li class="mb-3 d-flex ms-0 me-2">
-                   <svg class="ms-0" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-  <path d="M20.8068 6.12036L9.80676 17.1204L4.80676 12.1204" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg><img src="" alt=""><p class="me-0 text-black ms-2">Free  Quotes</p>
+                    <svg class="ms-0" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                         fill="none">
+                        <path d="M20.8068 6.12036L9.80676 17.1204L4.80676 12.1204" stroke="black" stroke-width="2"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <img src="" alt="">
+                    <p class="me-0 text-black ms-2">Free Quotes</p>
                 </li>
                 <li class="mb-3 d-flex m-0">
-                     <svg class="ms-0" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
-  <path d="M20.8068 6.12036L9.80676 17.1204L4.80676 12.1204" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg><img src="" alt=""><p class="me-0 text-black ms-2">100% Commitment-Free Booking</p>
+                    <svg class="ms-0" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"
+                         fill="none">
+                        <path d="M20.8068 6.12036L9.80676 17.1204L4.80676 12.1204" stroke="black" stroke-width="2"
+                              stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <img src="" alt="">
+                    <p class="me-0 text-black ms-2">100% Commitment-Free Booking</p>
                 </li>
             </ul>
-            <a href="#" class="btn text-capitalize fw-bold w-auto m-0 bg-black text-white border-0 ps-4 pe-4"><svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z" fill="white"></path>
-                </svg>Book you cab</a>
+            <a href="#book-cab" class="btn text-capitalize fw-bold w-auto m-0 bg-black text-white border-0 ps-4 pe-4">
+                <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
+                     fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M3.41142 10.5433L4.9142 11.6704L6.89131 6.92532C7.41362 5.67177 8.63844 4.85522 9.99645 4.85522H20.1901C21.5481 4.85522 22.7729 5.67177 23.2953 6.92532L25.2724 11.6705L26.7752 10.5433C27.1806 10.2393 27.7557 10.3215 28.0596 10.7268C28.3636 11.1321 28.2815 11.7072 27.8761 12.0112L26.124 13.3254L27.6781 15.6565C28.0464 16.2092 28.243 16.8583 28.243 17.5226V25.3444C28.243 25.8511 27.8324 26.2618 27.3256 26.2618H24.5733C24.0666 26.2618 23.6559 25.8511 23.6559 25.3444V22.5921H6.53062V25.3444C6.53062 25.8511 6.11987 26.2618 5.61319 26.2618H2.86091C2.35424 26.2618 1.94349 25.8511 1.94349 25.3444V17.5226C1.94349 16.8583 2.14006 16.2092 2.50845 15.6565L4.06262 13.3253L2.31051 12.0112C1.90516 11.7072 1.82301 11.1321 2.12702 10.7268C2.43103 10.3215 3.00608 10.2393 3.41142 10.5433ZM9.99618 6.69008C9.3789 6.69008 8.82217 7.06123 8.58475 7.63103L6.56406 12.4807L7.86658 12.8063H22.3195L23.622 12.4807L21.6012 7.63103C21.3638 7.06123 20.8071 6.69008 20.1898 6.69008H9.99618ZM22.4326 16.7818C23.1082 16.7818 23.6559 17.3294 23.6559 18.005V18.0172C23.6559 18.6928 23.1082 19.2405 22.4326 19.2405C21.7572 19.2405 21.2094 18.6928 21.2094 18.0172V18.005C21.2094 17.3294 21.7572 16.7818 22.4326 16.7818ZM8.97709 18.005C8.97709 17.3294 8.42942 16.7818 7.75385 16.7818C7.07827 16.7818 6.53062 17.3294 6.53062 18.005V18.0172C6.53062 18.6928 7.07827 19.2405 7.75385 19.2405C8.42942 19.2405 8.97709 18.6928 8.97709 18.0172V18.005Z"
+                          fill="white"></path>
+                </svg>
+                Book you cab</a>
         </div>
     </div>
 </div>
@@ -627,14 +829,15 @@
                 <a href="#" class="mb-3">
                     <img src="asset/image/footer_logo.png" alt="">
                 </a>
-                <p class="mb-3 mt-4 fs-5">Empowering Your Travel Plans with Reliable, Comfortable, and Affordable Cabs – Every Mile of the Way.</p>
+                <p class="mb-3 mt-4 fs-5">Empowering Your Travel Plans with Reliable, Comfortable, and Affordable Cabs –
+                    Every Mile of the Way.</p>
                 <ul class="d-flex align-items-center head_top_social">
                     <li class="me-2 ms-0">
                         <a href="#">
                             <img src="asset/image/facebook.png" alt="">
                         </a>
                     </li>
-                        <li class="me-2 ms-0">
+                    <li class="me-2 ms-0">
                         <a href="#">
                             <img src="asset/image/linkedin.png" alt="">
                         </a>
@@ -655,16 +858,16 @@
                 <h5 class="mb-3 fw-bold text-white">Quick Links</h5>
                 <ul class="footer_top_list">
                     <li class="mb-2">
-                        <a href="">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">About Us</a>
+                        <a href="about.html">About Us</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Contact Us</a>
+                        <a href="contact.html">Contact Us</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Services</a>
+                        <a href="services.html">Services</a>
                     </li>
                 </ul>
             </div>
@@ -672,20 +875,20 @@
                 <h5 class="mb-3 fw-bold text-white">Blogs</h5>
                 <ul class="footer_top_list">
                     <li class="mb-2">
-                        <a href="">Airport Taxi Booking Guide</a>
+                        <a href="blog.html">Airport Taxi Booking Guide</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Pet-Friendly Cab Services</a>
+                        <a href="blog.html">Pet-Friendly Cab Services</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Tips for Outstation Taxi Travel</a>
+                        <a href="blog.html">Tips for Outstation Taxi Travel</a>
                     </li>
                     <li class="mb-2">
-                        <a href="">Benefits of Hourly Car Rentals</a>
+                        <a href="blog.html">Benefits of Hourly Car Rentals</a>
                     </li>
                 </ul>
             </div>
-             <div class="col-lg-3 col-md-6 mb-4 mob_types">
+            <div class="col-lg-3 col-md-6 mb-4 mob_types">
                 <h5 class="mb-3 fw-bold text-white">Types</h5>
                 <ul class="footer_top_list">
                     <li class="mb-2">
@@ -700,10 +903,10 @@
                     <li class="mb-2">
                         <a href="">Innova</a>
                     </li>
-                     <li class="mb-2">
+                    <li class="mb-2">
                         <a href="">Tempo Traveller</a>
                     </li>
-                     <li class="mb-2">
+                    <li class="mb-2">
                         <a href="">Pet Friendly Cab</a>
                     </li>
                 </ul>
@@ -720,100 +923,44 @@
                         <a href="tel:+91 70461 62162">Call: +91 70461 62162</a>
                     </li>
                     <li class="mb-3 position-relative">
-                        <a href="#">Whatsapp: +91 70461 62162</a>
+                        <a href="https://wa.me/917046162162">Whatsapp: +91 70461 62162</a>
                     </li>
                 </ul>
             </div>
         </div>
-            <div class="row text-white text-start pt-5">
-                <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 fw-bold text-white">Cab from Delhi</h5>
+        <div class="row text-white text-start pt-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+
                 <ul class="footer_top_list">
-                    <li class="mb-2">
-                        <a href="">Delhi to Agra</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Delhi to Jaipur </a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Delhi to Chandigarh</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Delhi to Amritsar</a>
-                    </li>
+                    <li class="mb-2"><a href="services.html">Ahmedabad to Agra</a></li>
+                    <li class="mb-2"><a href="services_ahemtodwarka.html">Ahmedabad to Dwarka</a></li>
+                    <li class="mb-2"><a href="services_ahemtosomnath.html">Ahmedabad to Somnath</a></li>
+                    <li class="mb-2"><a href="services_ahemtokevadia.html">Ahmedabad to Kevadia</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 fw-bold text-white">Cab from Bangalore</h5>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+
                 <ul class="footer_top_list">
-                    <li class="mb-2">
-                        <a href="">Bangalore to Mysore</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Bangalore to Coorg</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Bangalore to Ooty</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Bangalore to Pondicherry</a>
-                    </li>
+                    <li class="mb-2"><a href="services_ahemtosurat.html">Ahmedabad to Surat</a></li>
+                    <li class="mb-2"><a href="services_ahemtobhuj.html">Ahmedabad to Bhuj</a></li>
+                    <li class="mb-2"><a href="services_ahemtomountabu.html">Ahmedabad to Mount Abu</a></li>
+                    <li class="mb-2"><a href="services_ahemtojunagadh.html">Ahmedabad to Junagadh</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 fw-bold text-white">Cab from Mumbai</h5>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+
                 <ul class="footer_top_list">
-                    <li class="mb-2">
-                        <a href="">Mumbai to Shirdi</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Mumbai to Shani Shingnapur</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Mumbai to Mahabaleshwar</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Mumbai to Nashik</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 fw-bold text-white">Cab from Chennai</h5>
-                <ul class="footer_top_list">
-                    <li class="mb-2">
-                        <a href="">Chennai to Bangalore</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Chennai to Pondicherry </a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Chennai to Tirupati </a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="">Chennai to Mahabalipuram</a>
-                    </li>
-                    
-                </ul>
-            </div>
-              <div class="col-lg-3 col-md-6 mb-4 contacter contacter_mob">
-                <h5 class="mb-3 fw-bold text-white">Reach Us</h5>
-                           <ul class="reach_us">
-                    <li class="mb-3 d-flex align-items-center position-relative">
-                        <p>
-                            Shayana Heights, C-107, KH Rd, Nr. Sargasan Cross Road, Gandhinagar, Gujarat – 382015
-                        </p>
-                    </li>
-                    <li class="mb-2 position-relative">
-                        <a href="tel:+91 70461 62162">Call: +91 70461 62162</a>
-                    </li>
-                    <li class="mb-3 position-relative">
-                        <a href="#">Whatsapp: +91 70461 62162</a>
-                    </li>
+                    <li class="mb-2"><a href="services_ahemtopalitana.html">Ahmedabad to Palitana</a></li>
+                    <li class="mb-2"><a href="services_ahemtodiu.html">Ahmedabad to Diu</a></li>
+                    <li class="mb-2"><a href="services_ahemtojamnagar.html">Surat to Jamnagar</a></li>
+                    <li class="mb-2"><a href="services_ahemtobakor.html">Ahmedabad to Dakor</a></li>
                 </ul>
             </div>
         </div>
-    
+
+
     </div>
 </div>
 <div class="copyrights pt-5" style="background-color: #1B1B1B;">
@@ -829,13 +976,13 @@
 <div class="container position-relative">
     <div class="row">
         <div class="whats_right_icon">
-           <a href="https://wa.me/917046162162"><img src="asset/image/whats.png" alt=""></a>
+            <a href="https://wa.me/917046162162"><img src="asset/image/whats.png" alt=""></a>
         </div>
     </div>
 </div>
 
-        <script type="text/javascript" src="asset/js/popper.min.js"></script>
-        <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
-        <script src="asset/js/custom.js"></script>
-    </body>
+<script type="text/javascript" src="asset/js/popper.min.js"></script>
+<script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
+<script src="asset/js/custom.js"></script>
+</body>
 </html>
