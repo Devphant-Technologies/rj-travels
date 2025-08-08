@@ -66,3 +66,58 @@ $('.services_slider').slick({
     }
   ]
 });
+
+function sendToWhatsAppOneWay(e) {
+  e.preventDefault();
+
+  const form = e.target;
+  const pickup = form.pickup.value.trim();
+  const dropoff = form.dropoff.value.trim();
+  const datetime = form.datetime.value.trim();
+  const mobile = form.mobile.value.trim();
+
+  const message = `🛺 *New One Way Booking Request*
+
+━━━━━━━━━━━━━━━━━
+📍 *Pickup Location:* ${pickup}
+📍 *Drop-off Location:* ${dropoff}
+🗓️ *Date & Time:* ${datetime}
+📱 *Customer Mobile:* ${mobile}
+━━━━━━━━━━━━━━━━━
+
+✅ Please confirm availability.`;
+
+  const phoneNumber = "919999999999"; // Replace with your WhatsApp number
+  const encoded = encodeURIComponent(message);
+  const url = `https://wa.me/${phoneNumber}?text=${encoded}`;
+
+  window.open(url, '_blank');
+}
+
+
+function sendToWhatsAppRound(e) {
+  e.preventDefault();
+
+  const form = e.target;
+  const pickup = form.pickup.value.trim();
+  const dropoff = form.dropoff.value.trim();
+  const datetimeRange = form.datetime_range.value.trim();
+  const mobile = form.mobile.value.trim();
+
+  const message = `🔁 *New Round Trip Booking Request*
+
+━━━━━━━━━━━━━━━━━
+📍 *Pickup Location:* ${pickup}
+📍 *Drop-off Location:* ${dropoff}
+🗓️ *Trip Duration:* ${datetimeRange}
+📱 *Customer Mobile:* ${mobile}
+━━━━━━━━━━━━━━━━━
+
+✅ Kindly review and confirm.`;
+
+  const phoneNumber = "919999999999"; // Replace with your WhatsApp number
+  const encoded = encodeURIComponent(message);
+  const url = `https://wa.me/${phoneNumber}?text=${encoded}`;
+
+  window.open(url, '_blank');
+}
